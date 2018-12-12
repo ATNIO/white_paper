@@ -81,4 +81,35 @@ In order to enable ATN tokens to be used on different blockchains, in the first 
 
 [image1]: https://i.snag.gy/yDTstd.jpg "image 1"
 
+At a later stage we will introduce a side-chain or a cross-chain protocol and the swap router will become part of the ATN infrastructure. With the help of the side chain and sharding technology, we will implement atomic cross blockchain operation. 
 
+
+
+![alt text][image2]
+
+[image2]: https://i.snag.gy/yuEZdW.jpg "image 2"
+
+Even if different blockchains can possess ATN tokens, the overall total number of tokens will be constant. This mechanism will be ensured by the Swap Router technology in the project’s first phase and will then be a native cross blockchain feature in subsequent phases.
+
+### Cross blockchain and cross-DApp platform
+
+In order to use AI services on different blockchains, ATN will implement a DApp in the Ethereum environment and subsequently DApps in other smart contract environments such as Qtum, RSK, etc...  Different DApps in different blockchains will need to support ATN’s base blockchain interoperable smart contracts.
+
+An ATN DApp contract should have these properties:
+*A token contract
+*An authorisation account manager which contains information on the AI service side account, the DBot account, consumer accounts and user authentication modules that access third party contracts (such as uport)
+*An AI registration service manager used to register the AI service, which contains information on the AI service registered, inquiries, the price of the service, information regarding the availability of the service and the way it expects to communicate. This can also include additional details such as the use of special communication channel (e.g. the lightning network)
+*A DBot proxy contract which is in charge of communicating with outside services and which is responsible to execute callbacks after receiving results from external services. This includes oracle implementation, DBot account management, off-chain consensus algorithms and  return of  AI service results back to the DApp.
+*DApp autonomy and renewal management contracts which include upgrading the relevant contracts and separation of the contractual logic and the data.
+
+### DBot platform
+
+*Off-chain consensus operation
+*Open source DBot server, provide DBot account maintenance operations
+*Provide tools for DBot account registration and AI services
+*Open AI market and user interface to access AI services
+*AI deep learning algorithm, and computing power.
+
+
+![alt text][image3]
+[image3]:https://i.snag.gy/QvmW1r.jpg "image 3"
