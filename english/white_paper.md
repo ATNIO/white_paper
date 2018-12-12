@@ -49,9 +49,9 @@ ATN can also solve the problem of integration between fragmented AI services. AT
 ### Trustless and Interoperable AI
 
 Joining ATN is simpler than joining  traditional AI services:
-*ATN provide API and Schema package of all existing AI services.
-*Implement the Dbot Oracle Predictive Machine, connect it to the AI services and deploy to ATN’s distributed relay server
-*Develop smart contracts that call AI services, define the pricing strategy and other parameters, deploy and register on ATN AI service management smart contract.
+* ATN provide API and Schema package of all existing AI services.
+* Implement the Dbot Oracle Predictive Machine, connect it to the AI services and deploy to ATN’s distributed relay server
+* Develop smart contracts that call AI services, define the pricing strategy and other parameters, deploy and register on ATN AI service management smart contract.
 
 ### Open platform
 
@@ -90,19 +90,19 @@ Even if different blockchains can possess ATN tokens, the overall total number o
 In order to use AI services on different blockchains, ATN will implement a DApp in the Ethereum environment and subsequently DApps in other smart contract environments such as Qtum, RSK, etc...  Different DApps in different blockchains will need to support ATN’s base blockchain interoperable smart contracts.
 
 An ATN DApp contract should have these properties:
-*A token contract
-*An authorisation account manager which contains information on the AI service side account, the DBot account, consumer accounts and user authentication modules that access third party contracts (such as uport)
-*An AI registration service manager used to register the AI service, which contains information on the AI service registered, inquiries, the price of the service, information regarding the availability of the service and the way it expects to communicate. This can also include additional details such as the use of special communication channel (e.g. the lightning network)
-*A DBot proxy contract which is in charge of communicating with outside services and which is responsible to execute callbacks after receiving results from external services. This includes oracle implementation, DBot account management, off-chain consensus algorithms and  return of  AI service results back to the DApp.
-*DApp autonomy and renewal management contracts which include upgrading the relevant contracts and separation of the contractual logic and the data.
+* A token contract
+* An authorisation account manager which contains information on the AI service side account, the DBot account, consumer accounts and user authentication modules that access third party contracts (such as uport)
+* An AI registration service manager used to register the AI service, which contains information on the AI service registered, inquiries, the price of the service, information regarding the availability of the service and the way it expects to communicate. This can also include additional details such as the use of special communication channel (e.g. the lightning network)
+* A DBot proxy contract which is in charge of communicating with outside services and which is responsible to execute callbacks after receiving results from external services. This includes oracle implementation, DBot account management, off-chain consensus algorithms and  return of  AI service results back to the DApp.
+* DApp autonomy and renewal management contracts which include upgrading the relevant contracts and separation of the contractual logic and the data.
 
 ### DBot platform
 
-*Off-chain consensus operation
-*Open source DBot server, provide DBot account maintenance operations
-*Provide tools for DBot account registration and AI services
-*Open AI market and user interface to access AI services
-*AI deep learning algorithm, and computing power.
+* Off-chain consensus operation
+* Open source DBot server, provide DBot account maintenance operations
+* Provide tools for DBot account registration and AI services
+* Open AI market and user interface to access AI services
+* AI deep learning algorithm, and computing power.
 
 
 ![](img/image3.jpg)
@@ -114,12 +114,12 @@ The blockchain execution of smart contract is deterministic, which means that if
 The introduction of DBot will solve this issue. Communication between smart contracts and DBots are asynchronous. When a smart contract wants to access an AI service, it will trigger an event.  The DBot node will receive it and communicate with the AI service according to the parameters and the strategy chosen in the smart contract.  Then it will receive the result and send it back to the blockchain smart-contract. 
 
 Here the DBot can be a trusted third party or can be an ATN DBot service selected through the governance group mechanism. The DApp ensures the DBot data reliability through an economical reward mechanism. This mechanism includes the following steps:
-*Creation of an AI registration service manager contract which contains information such as the corresponding DBot account administration strategy. This DBot account is responsible for defining the communication protocol between the AI services and the DBot worker.
-*A free inquiry about the AI service.
-*A consensus strategy to return more accurate and reliable deterministic data.
-*The AI registry service contract forwards the AI result to the caller contract.
-*The caller contract can execute its callback. 
-*During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
+*  Creation of an AI registration service manager contract which contains information such as the corresponding DBot account administration strategy. This DBot account is responsible for defining the communication protocol between the AI services and the DBot worker.
+* A free inquiry about the AI service.
+* A consensus strategy to return more accurate and reliable deterministic data.
+* The AI registry service contract forwards the AI result to the caller contract.
+* The caller contract can execute its callback. 
+* During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
 
 ![](img/image4.png)
 
@@ -129,18 +129,18 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 
 ![](img/image5.png)
 
-*The DBot blockchain supports EVM compatible smart contracts
-*Improvement of DPOS consensus algorithm
-*Improved fee model by using EOS’s  bandwidth control mechanism
-*Implement: Graphene (or EOS) + EVM
-*Create sharding inspired by Ethereum 2.0 and EOS, parallel smart contract, dispatch information design, every group of AI services install corresponding sharding area. Every Dbot services group will resolve off-chain until they find a consensus.
-*ATN tokens migrate to the DBot blockchain as the native token
-*Dbot account moves to the Dbot blockchain
-*DBot administration service contract moves to DBot blockchain contract
-*In order to provide EVM compatible smart contract interoperability, we provide blockchain smart contract interoperability platform:
-**RSK interoperability contract
-**Qtum interoperability contract
-**EOS interoperability contract
-*Governance: built-in system integrating AI voting proxy
+* The DBot blockchain supports EVM compatible smart contracts
+* Improvement of DPOS consensus algorithm
+* Improved fee model by using EOS’s  bandwidth control mechanism
+* Implement: Graphene (or EOS) + EVM
+* Create sharding inspired by Ethereum 2.0 and EOS, parallel smart contract, dispatch information design, every group of AI services install corresponding sharding area. Every Dbot services group will resolve off-chain until they find a consensus.
+* ATN tokens migrate to the DBot blockchain as the native token
+* Dbot account moves to the Dbot blockchain
+* DBot administration service contract moves to DBot blockchain contract
+* In order to provide EVM compatible smart contract interoperability, we provide blockchain smart contract interoperability platform:
+* * RSK interoperability contract
+* * Qtum interoperability contract
+* * EOS interoperability contract
+* Governance: built-in system integrating AI voting proxy
 
 
