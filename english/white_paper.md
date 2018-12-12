@@ -77,7 +77,7 @@ Unlike normal tokens, ATN tokens are designed to be cross-blockchain tokens whic
 
 In order to enable ATN tokens to be used on different blockchains, in the first stage of the project, we will introduce the ATN Swap Router.  This is a centralised service that will help with token circulation between the different blockchains.
 
-![](/img/image1.jpg)
+![](img/image1.jpg)
 
 At a later stage we will introduce a side-chain or a cross-chain protocol and the swap router will become part of the ATN infrastructure. With the help of the side chain and sharding technology, we will implement atomic cross blockchain operation. 
 
@@ -105,9 +105,7 @@ An ATN DApp contract should have these properties:
 *AI deep learning algorithm, and computing power.
 
 
-![alt text][image3]
-
-[image3]: https://i.snag.gy/QvmW1r.jpg "image 3"
+![](img/image3.jpg)
 
 #### Communication pattern between a smart contract and a DBot
 
@@ -123,6 +121,5 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 *The caller contract can execute its callback. 
 *During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
 
-![alt text][image4]
+![][img/image4.png]
 
-[image4]: 
