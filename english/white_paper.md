@@ -121,5 +121,26 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 *The caller contract can execute its callback. 
 *During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
 
-![][img/image4.png]
+![](img/image4.png)
+
+### ATN Basic Blockchain Architecture
+
+#### Basic chain
+
+![](img/image5.png)
+
+*The DBot blockchain supports EVM compatible smart contracts
+*Improvement of DPOS consensus algorithm
+*Improved fee model by using EOS’s  bandwidth control mechanism
+*Implement: Graphene (or EOS) + EVM
+*Create sharding inspired by Ethereum 2.0 and EOS, parallel smart contract, dispatch information design, every group of AI services install corresponding sharding area. Every Dbot services group will resolve off-chain until they find a consensus.
+*ATN tokens migrate to the DBot blockchain as the native token
+*Dbot account moves to the Dbot blockchain
+*DBot administration service contract moves to DBot blockchain contract
+*In order to provide EVM compatible smart contract interoperability, we provide blockchain smart contract interoperability platform:
+**RSK interoperability contract
+**Qtum interoperability contract
+**EOS interoperability contract
+*Governance: built-in system integrating AI voting proxy
+
 
