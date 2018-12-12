@@ -138,9 +138,9 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 * Dbot account moves to the Dbot blockchain
 * DBot administration service contract moves to DBot blockchain contract
 * In order to provide EVM compatible smart contract interoperability, we provide blockchain smart contract interoperability platform:
-** RSK interoperability contract
-** Qtum interoperability contract
-** EOS interoperability contract
+* * RSK interoperability contract
+* * Qtum interoperability contract
+* * EOS interoperability contract
 * Governance: built-in system integrating AI voting proxy
 
 #### Multi Blockchain Smart Contract Platform Interoperability
