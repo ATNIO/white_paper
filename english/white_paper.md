@@ -77,6 +77,8 @@ Unlike normal tokens, ATN tokens are designed to be cross-blockchain tokens whic
 
 In order to enable ATN tokens to be used on different blockchains, in the first stage of the project, we will introduce the ATN Swap Router.  This is a centralised service that will help with token circulation between the different blockchains.
 
-![https://pasteboard.co/HRlzSTL.png]
+![figure1][image1]
+
+[image1]: https://pasteboard.co/HRlzSTL.png
 
 
