@@ -143,4 +143,228 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 ** EOS interoperability contract
 * Governance: built-in system integrating AI voting proxy
 
+#### Multi Blockchain Smart Contract Platform Interoperability
+
+The ATN DBot platform can carry out communications between interoperable smart-contract platforms which exist in different blockchain networks, the only condition being a smart contract compatible platform. Currently, other than Ethereum there are many EVM-compatible environments such as RSK, Qtum, EOS and Ethereum Classic; they will all be supported in the future by ATN.
+
+The ATN DBot platform, and the future ATN DBot blockchain,  will provide many interoperable features between different blockchains. The following steps describe what will happen when a smart contract interoperates with another blockchain smart contract:
+* The ATN DBot platform has a registration service contract which associate the corresponding DBot account management strategy to the registered services. These DBot accounts are responsible for managing the interoperability contract and the execution in the corresponding DBot node.
+* When a smart contract calls another contract through the registry contract, this is equivalent to sending an asynchronous request together with a callback function  and the caller smart contract will continue his execution. The DBot node group through the registry contract will receive the transferred request, and will execute it “off-chain”. After getting the final result, it will transfer it back to the previous blockchain caller smart-contract.
+* Because there is a receipt proof and Merkle records in the blockchain network for the  contract which was called, there is no need for an off-chain consensus and we can ensure that the transfer process is deterministic and reliable.
+* The caller contract  continues to run after it receives the result data
+
+![](img/image6.png)
+
+### AI Authorisation Service Management
+
+Currently all major AI service providers need access authorization, for example by signing requests using <app_key, app_secret>, where <app_key, app_secret> are usually provided by the AI service provider. In ATN, the DBot account which is calling the AI service is in charge of providing the access authorisation. The issue is that ultimately, the DBot account which calls the AI service, is chosen by the system or by a voting procedure. Therefore, ATN provides a unified AI service authorization management solution. 
+
+On the ATN platform, each DBot account will have a <public key, private key> pair. Every time a user calls an AI service, the DBot account needs to use the private key to sign the call request content or hash it. The AI service verifies the signature by using the DBot account public key. At the same time the DBot platform inquiry service provide the current status and controls if the selected DBot accounts have the rights to process the AI service. In order to avoid replay attack, the request should contain a random nonce number and if the nonce number is the same, the request will be rejected.
+
+### AI Data Computation Open Platform
+
+#### Necessity of AI resources collaboration
+
+The victory of Alpha Go over the world famous chess player Lee in 2016, was a very memorable step in the history and progress of Artificial Intelligence. The reasons why Alpha Go could beat a human were not because Alpha Go had better logic or any special features that are better than the human brain but was mainly because Alpha Go had massive data training, using parallel algorithms involving significant computational power. In order to train Alpha Go, Google used data from hundreds of thousands of games of Go, and through a reinforcement learning technique Alpha Go became better and better each time.
+
+![](img/collaborativeNetwork.png)
+
+
+From the example of Alpha Go, we can see that the key elements to build good AI are data, algorithms and computational power. Unfortunately, these three elements require huge investment and that’s why it’s very hard for small companies or individuals to get results. 
+
+In order to improve, AI algorithms need a lot of research, which is the strength of universities and AI technology innovation enterprises. Whereas the data and computing power are often in the hands of governments, cloud centers and big companies. 
+
+Since ATN will be providing these three keys elements: research, data and computing power, it will bring significant innovation to the AI industry. While providing an economic benefit for AI resource providers, it gives an easy innovative platform for AI startups, which is a "win-win" situation.
+
+#### AI Sharing Data Program
+
+Unauthorized sharing of personal data and the infringement of data copyrights are the biggest factors that influence the willingness to share data. With blockchain technology and secure encryption, ATN can protect the rights of data owners and eliminate the risks of data sharing.
+
+
+##### Personal Privacy Protection
+
+Legal authorities and data owners all have a desire to protect personal privacy. Personal privacy protection is primarily to prevent the disclosure of information about a particular individual. AI algorithms can be modeled on a macro scale and do not need to know which datasets belong to which user. Therefore, personal privacy protection and AI modeling are not contradictory.
+
+After the private personal information in the data is deleted or securely encrypted, the statistical characteristics (e.g. count, sum) of the data remain unchanged and personal privacy is protected.
+
+###### Hashing
+
+Using SHA256 and other hashing algorithms to encrypt the fields of user information, such as user ID, mobile phone number, age and so on, can protect the anonymity of personal information to a certain extent.
+
+###### Differential privacy protection
+
+The differential privacy protection in databases, sometimes associated with cryptography, is a property of anonymisation that can be reached via different mechanisms. It aims to define a form of protection for the results of queries made to a database by minimizing the risks of identifying the entities it contains, if possible by maximizing the relevance of the results of the query.
+
+
+###### Secure Multi-Party Computation
+
+Secure multi-party computation (MPC) is a branch of cryptography with the goal of creating methods that will be solved with the cooperation of a group of parties without having to trust each other.  Each party input given to the functions are private and doesn’t need to be shared with other parties.  This method ensure independence of input and correctness of the result.
+
+To illustrate the process of secure multi-party computation, we can give a couple of concrete examples:
+
+1. Alice suspects that she could have a genetic disease and want to get a diagnosis. She knows that Bob has a DNA database which can help her if she sends a DNA sample to Bob. But Alice doesn’t want others to know it and would like to keep everything secret. She cannot send the DNA sample directly to Bob otherwise Bob will have her DNA sample plus her personal information.
+
+2. After costly market research, Company A decides to expand to a new market, expecting a strong return on investment. At the same time company A noticed that company B is also expanding to the same markets. Strategically, both companies do not want to compete with each other in the same area, so they all want to know if there is overlap in their market areas without revealing market location information as leakage of any information could result in significant loss for the company. For example, if another rival firm knows about the expansion of A and B companies, it could take early action to capture the market. 
+3. Two financial organizations want to collaborate on a project to find a win-win solution. In order to cooperate, each organization has needs from the cooperation to be satisfied including the fact that they do not want to share their proprietary data between themselves or to any “trusted” third parties. How can they cooperate with this data privacy constraint?
+
+![](img/image7.png)
+
+###### Oblivious transfer protocol
+
+Oblivious Transfer Protocol is the basis of secure multi-party computation. During a traditional information query, Alice sends a request to Bob and Bob returns the appropriate information to Alice. In this process, Bob is aware of Alice’s data request. In Oblivious Transfer Protocol, Bob does not know Alice’s data request, and Alice only gets the data she requested.
+
+###### Homomorphic encryption
+
+In cryptography, a homomorphic encryption is an encryption that has certain algebraic characteristics such as the decryption of a result of a mathematical operation on encrypted data gives the same result as it would on unencrypted data; this property makes it possible to entrust an external agent to perform calculations, without the data or the results being accessible to this agent.
+
+#### AI computing power sharing
+
+##### Centralized power sharing
+
+Supercomputing Centers and Cloud Enterprises often have important but unused compute power, which can be shared as a service.  Compute sharing is mainly used in the AI model training stage which requires large computational power, and the model prediction stage can use a cloud platform directly.
+
+The model-training platform should be built and support the following AI models:
+* Stand-alone AI model: Python scikit-learn, Java weka, etc.
+* Distributed AI model:  Spark ml-lib, MPI.
+* Deep learning AI model: Tensorflow, Caffle, MxNet.
+
+ATN provides an SDK for AI compute power sharing. One for the computing power providers to make it accessible to the users and another one for AI startups to be able to call the compute power provider services. The SDK mainly includes the following interfaces:
+* Data upload interface: Upload encrypted training data,
+* Model Training Interface: model training initialization,
+* Model Evaluation and Export interface: model evaluation and export.
+
+##### Crowdsourcing Power
+
+There are many AI models with distributed learning structures. In these models, the work will be sent to participating nodes with a chunk of data and the result will be aggregated in aggregation nodes. For example, the ensemble learning models (GBDT/RF) are constructed by the union of individual trees; another example is the structure of neural networks which is built by a kind of assembled block pattern.
+
+
+![](img/image8.png)
+
+In the case of the Crowdsourcing Power Sharing, ATN will maintain some nodes that are used as AI Model Aggregation Nodes. Every crowdsourcing node of ATN will receive a small batch of encrypted training data and test data, and the node will use training data set to build an independent model, such as a small tree or neural network. The node will then use test data sets in order to classify the independent trained model and classification results will be sent to the Model Aggregation Node. The aggregation node compares the classification results received by the crowdsourcing nodes to ensure whether the node really trained the model or not.
+
+#### Model sharing program
+
+##### Pre-training Model Sharing
+
+The deep learning models today are getting more and more layers. For example, in the ImageNet challenge, different models compete with each other, the 8 layer AlexNet, the 16 layer VGG, the 22 layer GoogLeNet and the 152 layers ResNet. Because neural networks have a very strong generalization ability, the deeper the model is, the better it can express the characteristics of the training data thus achieve a better classification effect.
+
+The deeper a neural network model is, the longer the training time will be. The training time often last several weeks. In addition, deep neural networks need a huge set of training data in order to be trained well. 
+
+‘Transferred learning’ may be a great help in order to facilitate the neural network’s training.  This idea is that the creator of deep neural network models pre-trains the model with large-scale datasets and publishes it, then users can use their own data to train the upper layers of the neural network model and will achieve a very good classification.
+
+ATN will provide an SDK for creators to publish and protect the pre-trained models, and also for users to use the pre-trained models.
+
+##### Parameterized Model Services
+
+In order to use parameterized model services, users first need to upload a set of data. For example, for face recognition, users should upload the targeted face image to initialize it and then call the face recognition services.
+
+##### Related work:  The zero-knowledge proof
+
+The “zero-knowledge proof, from S.Goldwasser, S.Micali and C.Rackoff is a document written in 1980. It means that the prover can convince the verifier that a certain assertion is correct without providing the verifier any useful information. Zero-knowledge proof is essentially an agreement involving two or more parties, and a series of steps that are required to be done by the parties. The prover will convince the verifier without leaking any information. The zero-knowledge proof is a very useful cryptographic tools and is the perfect tool to protect data sovereignty and privacy.
+
+## Architecture Design
+
+### Business Architecture
+
+The ATN platform consists of the ATN blockchain, the A.I. services open platform, the DBot network platform and open data platform. This complete ecosystem which includes cross-platform smart contracts (Ethereum, Qtum, RSK ect…), DBot workers, training model workers, integrated AI plan solution providers, AI consumer services etc., will be the basis for a complete new and different open AI industry. Figure 3-1 shows the business architecture.
+
+![](img/image9.png)
+
+#### Actors
+
+##### AI service providers
+
+Using ATN will allow AI service provider to sell AI services and make them accessible to anyone on the ATN platform in exchange for ATN tokens when the service is used.  
+
+##### AI Consumers
+
+ATN makes it easy for any developer to create a browser for ATN using the Dapp metadata. This browser can list all the available services offered by the network such as list the AI services to make it easy for AI consumers to use the AI services. The AI consumer could be a smart contract, another AI service or an application. Access to all services require the use of ATN tokens. Payment for the service is held in escrow and the reward is processed by the ATN network once the API is used..
+
+#####  DBot Developers
+
+On the ATN platform, DBot developers will implement and publish the DBot contracts and be in charge of the authorisation process to access the third party AI services. DBot contracts are an adapter between ATN and AI services. The DBot contracts providers are rewarded for implementing and hosting services.
+
+##### DBot worker
+
+DBot workers are responsible for the execution of the DBot services and  participate in off-chain AI service consensus. They are the ones who have a direct connection to the AI outside services and will get the data from the external sources. 
+
+##### ATN blockchain
+
+The ATN blockchain supports smart contract interoperability on different blockchains. It will connect Ethereum, Qtum and RSK smart contract platforms. That will enable cross-platform smart contract interoperability. 
+
+##### AI training and services open platform
+
+The ATN platform is used to connect  AI services to the AI marketplace. From the platform users can access different AI services, a description of their capabilities and the price of the services. The DBot developers will communication with that platform. 
+
+##### AI Solution Providers
+
+All the various AI services provided by ATN will bring the consumer complete solution. More broadly, the AI open platform will be able to provide adapted solutions for all industries. 
+
+### Technology Architecture
+
+ATN is divided into three layers: the application layer, the middleware layer and infrastructure layer, which is  a blockchain network and smart contract platform together with the AI computing and service providers.
+
+![](img/image10.png)
+
+#### DApp Application
+
+ATN will create an Ethereum DApp which will have a set of contract to manage the different aspect of our network such as:
+
+* Service management contract
+* Entry contract
+* Account management contract
+* Token contract
+* Governance contract
+* Payment contract
+* Reward contract
+
+#### State Channels Network
+
+Some AI services require will be called often and thus require significant communication. Each time it is called it will do a transaction. In a normal blockchain network, this would incur significant transaction fees, so ATN uses a high-frequency micro-payment technology such as the Lightning Network or the Raiden Network 
+
+![](img/image11.png)
+
+## User case
+
+In this section we will show some typical user case scenarios. This is just the tip of the iceberg but they are good illustrations of the potential of the ATN to improve the AI industry.
+
+### Leveraging AIaaS using smart contracts
+
+One of the great features of smart contracts is the fact that they are completely autonomous once the execution has started.  But some smart contracts need to get external data to execute. Usually we get this data through trusted third parties which can result in an over-reliance on a particular third party for the smart contract execution and since the execution of the smart contract is autonomous, you have not way of modifying that external data once you get it. With ATN it will be extremely easy to combine similar AI services to query the data from different sources and get a reliable data from them. 
+
+### AI decentralized smart contract governance
+
+The Aragon network provides a decentralized governance system based on smart contracts. The advantages of a system like that is that all the decisions are made very transparently and only rely on the execution of smart contracts.  
+
+In a current system like Aragon, the governance decisions are made by judges. In ATN, we will improve the “judges” by integrating AI in order to make better decisions. This upgraded version will bring more trust and fairness to the decision process. 
+
+### AI services cooperation
+
+Currently most AI services are separated from each other. ATN strongly believe that the AI cooperation is one of the most important feature in the future.  ATN is designed to facilitate AI cooperation.
+
+ATN will  help users to perform complex AI tasks at very competitive prices. This new ecosystem will be beneficial for the AI world and for AI users, making AI easily available and affordable. 
+
+
+## Summary
+
+Unlike traditional AI systems with built-in limitations, centralized control, hard AI services cooperation, uncompetitive prices and fragmented AI services; ATN  with its decentralized system, autonomous and cooperative AI market, competitive prices and unified AI services is a breakthrough in the AI world. It will help to develop smarter AI applications that will bring benefits to society as a whole. Using AI in our daily life will enable us all to make better decisions and improve our lives.
+
+## References
+1. XiaoI：http://www.xiaoi.com 
+2. Ethereum. Why should we use hybrid POW+POS mechanism？ http://www.8btc.com/powpos-vitalik-burterin
+3. Oraclize: http://oraclize.it/
+4. Neo whitepaper：http://docs.neo.org/en-us/
+5. EOS Technical White Paper：https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
+6. Aragon White Paper: https://raw.githubusercontent.com/aragon/whitepaper/master/Aragon%20Whitepaper.pdf
+7. Artificial intelligence algorithm platform https://algorithmia.com/
+8. Ethereum Sharding： https://github.com/ethereum/wiki/wiki/Sharding-FAQ
+9. Comit Network： http://www.comit.network/doc/COMIT%20white%20paper%20v1.0.2.pdf
+10. Raiden Network：http://raiden.network/
+11. Raiden Network POC：https://github.com/raiden-network/raiden/wiki/Raiden-PoC%E2%80%900
+12. Understanding Oracle：https://blog.oraclize.it/understanding-oracles-99055c9c9f7b
+13. Schelling Coin : https://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/
+
+
+
+
 
