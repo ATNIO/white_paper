@@ -146,13 +146,88 @@ That way we can guarantee the liveliness and the security of ATN chain whilst en
 As all other public chain, ATN will use inflation in order to maintain the network. The inflation during the first five years will be **5% and will slowly decrease to 3%.** 
 This inflation will be separated into 3 categories:
 1. 80% to the block producers with:
-	a. 75% **equally distributed to the top actives and standby** block-producers with the highest voting rate. ( It will cover the cost of the server)
-	b. 25% for active block producers as **block rewards**.
+	1. 75% **equally distributed to the top actives and standby** block-producers with the highest voting rate. ( It will cover the cost of the server)
+	2. 25% for active block producers as **block rewards**.
 2. 20% to the ATN fund.
 
 **ATN fund** will be used to finance projects which will be beneficial to ATN ecosystem. Anybody can be a candidate to such a project.
 
 ![](img/image12.png)
+
+#### Block producer incentive
+
+In a real world, not every person is driven with good intention. In human nature we can find the best and the worst. That’s why in order to protect the network and punish harmful behavior we designed some “commitment rules” which will make an attacker think twice before attempting of doing one . Any network is attackable and the only thing we can do is to make it as hard and as costly as possible.
+It will be required to deposit 10,000 ATN to be a candidate to be a block producer.
+
+![](img/image13.png)
+
+The table 2 show the reward for block producers over the years as number of block producers increase. It only show the economic incentive due to the inflation but it’s important to keep in mind that when a block producer create a block, it will receive the **transaction fees** as well.
+
+Block producer incentive summary:
+1. Equally shared reward for the top voted block producers.
+2. Block creation rewards.
+3. Fees following the pay-your-bid system of the transactions included in the block.
+
+#### Block producer scoring system.
+
+No single point of failure, liveliness and protection of the network are some big responsibilities given to block producers. 
+Block producers are voted by the community therefore it’s important for the community to have useful data that can help to select good ones. That’s why we need a **scoring system** that can help the community to choose block producers thus maintain the system healthy. 
+
+Additionally we will introduce some **automatic protection mechanism** based on the block producer score..
+
+**Each block producer** will be affected with a score.
+The score is computed in an iterative fashion according to **round n**.
+**A round** is a period defined by a set of **active block producers** which are responsible for **the next 1000 blocks of the chain**. 
+The total score of a node depends on its previous score and its recent performance during the last round.
+
+Definition of the performance for a round.
+
+![](img/image14.png)
+
+##### Selection of active block producers:
+
+Each round there are two very important parameters for the selection of active block producers:
+1. The voting percentage of node k.  (number of votes received by the node)
+2. The performance of the node k during the last round.
+
+We introduce a non-formal definition of **function top** to help the audience to understand the concept without introducing too complex definition.
+**Function top**  takes 3 parameters, a list myList, an element myElement and a number of element numberOfElements and return true if myElement in myList belong to the top numberOfElements of the list.
+
+Using function **top** allows us to simply define the set of active block producers at any round.
+
+![](img/image15.png)
+
+Definition of the total score of a node:
+
+![](img/image16.png)
+
+* Below a certain threshold for the score of a block producer set to  Smin=32, the deposit of the block producer will be taken and given to the ATN fund.
+* In real world, a server cannot be 100% stable and failure can happen. That’s with these considerations that we selected the parameter =2.5. It should prevent a new block producer ( starting with a score of 80) to have a failure or a big instability for 48 h before crossing Sthreshold . 
+* The parameter  is a consequences of the parameter  to keep the continuity between the two set of rules.
+* As a result, =0.95
+
+#### Getting back deposit and penalty
+
+At any moment, a node can get back his deposit following this simple rule:
+
+![](img/image17.png)
+
+#### Server requirements
+
+Technical specifications of ATN block producers server:
+* 8 CPU
+* 16GB of memory
+* 4 TB of storage
+* A bandwidth of 20Mb/s
+
+#### Voting mechanism and mainnet launch.
+
+Each time you vote you reserve ATN tokens for voting and as long as your vote is active, your token are **“staked”**.
+You can decide to **unstake your token at any moment** and you will get them back.
+
+In order to protect the network, ATN voting percentage will need to reach a minimum of 15% of the current circulating supply.
+If this condition is not fulfilled, ATN foundation will be responsible for at least ⅔ of the block producers.
+**After the minimum of 15% of voting is reached**, it will become a traditional voting selection for block producers with no possibility to come back to the initial state, even if the voting percentage shrink below 15%.
 
 ### AI Authorisation Service Management
 
