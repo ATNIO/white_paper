@@ -398,6 +398,9 @@ Some AI services require will be called often and thus require significant commu
 
 ![](img/image11.png)
 
+
+![](img/dbot_with_state_channel.svg)
+
 ## User case
 
 In this section we will show some typical user case scenarios. This is just the tip of the iceberg but they are good illustrations of the potential of the ATN to improve the AI industry.
