@@ -131,29 +131,28 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 
 * The DBot blockchain supports EVM compatible smart contracts
 * Improvement of DPOS consensus algorithm
-* Improved fee model by using EOS’s  bandwidth control mechanism
-* Implement: Graphene (or EOS) + EVM
-* Create sharding inspired by Ethereum 2.0 and EOS, parallel smart contract, dispatch information design, every group of AI services install corresponding sharding area. Every Dbot services group will resolve off-chain until they find a consensus.
-* ATN tokens migrate to the DBot blockchain as the native token
+* ATN tokens migrate to the ATN blockchain as native token
 * Dbot account moves to the Dbot blockchain
-* DBot administration service contract moves to DBot blockchain contract
-* In order to provide EVM compatible smart contract interoperability, we provide blockchain smart contract interoperability platform:
-* * RSK interoperability contract
-* * Qtum interoperability contract
-* * EOS interoperability contract
-* Governance: built-in system integrating AI voting proxy
 
-#### Multi Blockchain Smart Contract Platform Interoperability
+### Economy and incentive of ATN chain
 
-The ATN DBot platform can carry out communications between interoperable smart-contract platforms which exist in different blockchain networks, the only condition being a smart contract compatible platform. Currently, other than Ethereum there are many EVM-compatible environments such as RSK, Qtum, EOS and Ethereum Classic; they will all be supported in the future by ATN.
+The economy of a blockchain is a key aspect because it has to be economically profitable to the different actors to participate and maintain the network.
+The safety of a decentralized ledger is also a crucial property because it brings the value of the network. That's why people will trust it and use it. 
 
-The ATN DBot platform, and the future ATN DBot blockchain,  will provide many interoperable features between different blockchains. The following steps describe what will happen when a smart contract interoperates with another blockchain smart contract:
-* The ATN DBot platform has a registration service contract which associate the corresponding DBot account management strategy to the registered services. These DBot accounts are responsible for managing the interoperability contract and the execution in the corresponding DBot node.
-* When a smart contract calls another contract through the registry contract, this is equivalent to sending an asynchronous request together with a callback function  and the caller smart contract will continue his execution. The DBot node group through the registry contract will receive the transferred request, and will execute it “off-chain”. After getting the final result, it will transfer it back to the previous blockchain caller smart-contract.
-* Because there is a receipt proof and Merkle records in the blockchain network for the  contract which was called, there is no need for an off-chain consensus and we can ensure that the transfer process is deterministic and reliable.
-* The caller contract  continues to run after it receives the result data
+Its with all these considerations that we introduce this economic plan in order to protect and develop ATN ecosystem. ATN public chain has a DPOS consensus with dynamic number of block producers. 
+At the beginning there will be few block producers and it will slowly increase over time **until we reach 101 nodes.** 
+That way we can guarantee the liveliness and the security of ATN chain whilst ensuring a good incentive for block producers.
 
-![](img/image6.png)
+As all other public chain, ATN will use inflation in order to maintain the network. The inflation during the first five years will be **5% and will slowly decrease to 3%.** 
+This inflation will be separated into 3 categories:
+1. 80% to the block producers with:
+	a. 75% **equally distributed to the top actives and standby** block-producers with the highest voting rate. ( It will cover the cost of the server)
+	b. 25% for active block producers as **block rewards**.
+2. 20% to the ATN fund.
+
+**ATN fund** will be used to finance projects which will be beneficial to ATN ecosystem. Anybody can be a candidate to such a project.
+
+![](img/image12.png)
 
 ### AI Authorisation Service Management
 
@@ -304,7 +303,7 @@ All the various AI services provided by ATN will bring the consumer complete sol
 
 ATN is divided into three layers: the application layer, the middleware layer and infrastructure layer, which is  a blockchain network and smart contract platform together with the AI computing and service providers.
 
-![](img/image10.png)
+x
 
 #### DApp Application
 
