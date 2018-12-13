@@ -399,7 +399,7 @@ Some AI services require will be called often and thus require significant commu
 ![](img/image11.png)
 
 
-![](img/dbot_with_state_channel.svg)
+<!-- ![](img/dbot_with_state_channel.svg) -->
 
 ## User case
 
