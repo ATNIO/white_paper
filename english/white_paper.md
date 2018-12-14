@@ -27,24 +27,20 @@ ATN will develop next generation blockchain technology for AI-aaS to build an op
 
 ATN is an Artificial Intelligence AIaaS marketplace where developers, technology suppliers and buyers come together to access and develop new and innovative forms of A.I. technology effectively building the next generation of artificial intelligence in a trusted and collaborative environment.
 
-ATN is built on a smart-contract enabled next-generation blockchain that gives DApps quick and secure access to AI capabilities and service through a DBot/DApp ecosystem that will be created by ATN.
+<!-- ATN is built on a smart-contract enabled next-generation blockchain that gives DApps quick and secure access to AI capabilities and service through a DBot/DApp ecosystem that will be created by ATN. -->
 With blockchain technology, ATN uses encryption to protect data sets and A.I. algorithms, to allow for rapid commercialization and adoption. This will reduce the barrier to entry for companies who want to use A.I. solutions cost effectively. Developers will be able to share their work in the marketplace with the knowledge that their technology is secured and that they will be remunerated for their work.
 ATN manages, promotes and fosters technology co-creation and collaboration to help the A.I. industry improve development efficiency and incentives to drive adoption across industry verticals. 
 
 ### Connecting Blockchain and A.I. 
 
-The first step in developing the ATN platform is to build a blockchain service that connects different AI services together to create a blockchain smart contract ecosystem for the benefit of users. We'll introduce the Dbot technology to provide interoperability between blockchain smart contracts and AI services. 
+The first step in developing the ATN platform is to build a blockchain service that connects different AI services together to create a blockchain smart contract ecosystem for the benefit of users. We'll introduce the Dbot technology to provide quick access to AI services.
 
-ATN will implement a DApp in the Ethereum testnet to enable this capability on the Ethereum network. At this stage, an ERC-20 token contract will also be provided and tokens will be used as “gas” for the use of these AI services (handling fees).ATN’s second step will be the creation of an independant ATN blockchain with a native token which will be interoperable with other blockchains to enable an ecosystem of interoperable smart contracts to access AI services through ATN’s DBot platform. 
+The DBot technology is the first step to connect AI providers to AI consumers. You can find a video of our current progress [[ here | https://www.youtube.com/watch?v=rj1Rvjr4kxA]] and test it out.
 
-### Smart Contracts
 
-ATN can solve the problem of invoking AI services in smart contracts. Currently, smart contracts on the the Ethereum network are not really "smart". The “smart” in this context refer more to the automation aspect rather than on a genuine intelligence. 
-The introduction of AI in ATN will make the blockchain services to become truly smart.
+### Universal account
 
-In the current Ethereum network ecosystem, most Dapp governance are implemented using smart contracts. After introducing AI to smart contracts, ATN will create a “genuine” intelligence which will be able to to take smart and appropriate decisions based on data and AI algorithms. To take a concrete example, a Project like Aragon will be able to achieve AI governance.
-
-ATN can also solve the problem of integration between fragmented AI services. ATN through DApps will provide a decentralized and permissionless AI economic network accessible to everyone, solving the problem of cooperation between AI participants. ATN provides an AI ecosystem with a payment network and smart contracts that create an economic infrastructure.
+ATN can also solve the problem of integration between fragmented AI services. ATN through its design will provide a decentralized and permissionless AI economic network accessible to everyone, solving the problem of complex access and facilitate cooperation between AI services. ATN provides an AI ecosystem with a payment network (payment channel) that create an economic infrastructure.
 
 ### Trustless and Interoperable AI
 
