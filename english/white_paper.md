@@ -18,9 +18,7 @@ To improve the AI industry, we propose to leverage the decentralized nature of b
 
 Introducing ATN: an AI Marketplace where developers, technology suppliers and buyers come together to access and develop new and innovative forms of AI technology, thus creating the next generation of artificial intelligence in a trusted and collaborative environment. 
 
-ATN is a decentralized, permission-less, customizable AI service and open interface blockchain platform. The overall design combines the ideas of oracles and other cross-chain projects. Focusing on solving the interoperability issues between Artificial Intelligence as a Service (AIaaS) and EVM-compliant smart contracts. 
-
-ATN will develop next generation blockchain technology for AI-aaS to build an open economic system, enabling easier transactions and interoperability between AI services, resulting in the formation of a more robust artificial intelligence industry. The ATN platform design allows AI services to be accessed through ATN smart contracts, without requiring authorization, thus allowing users to easily interact with AI service providers. 
+ATN will develop next generation blockchain technology for AI-aaS to build an open economic system, enabling easier transactions and interoperability between AI services, resulting in the formation of a more robust artificial intelligence industry. 
 
 
 ## Introduction
