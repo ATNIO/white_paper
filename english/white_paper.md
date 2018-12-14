@@ -359,24 +359,16 @@ Download and install our latest wallet [here](https://github.com/ATNIO/atn-walle
 
 Some AI services  will be called often and thus require significant communication. Each time it is called it will do a transaction. In a normal blockchain network, this would incur significant transaction fees, so ATN uses a high-frequency micro-payment technology, **the payment channel.**
 
-![](img/image11.png)
+<!-- ![](img/image11.png) -->
 
+##### Estabishing payment channel flow.
 
-<!-- ![](img/dbot_with_state_channel.svg) -->
+![](img/dbot_with_state_channel.svg)
 
 ## User case
 
 In this section we will show some typical user case scenarios. This is just the tip of the iceberg but they are good illustrations of the potential of the ATN to improve the AI industry.
 
-### Leveraging AIaaS using smart contracts
-
-One of the great features of smart contracts is the fact that they are completely autonomous once the execution has started.  But some smart contracts need to get external data to execute. Usually we get this data through trusted third parties which can result in an over-reliance on a particular third party for the smart contract execution and since the execution of the smart contract is autonomous, you have not way of modifying that external data once you get it. With ATN it will be extremely easy to combine similar AI services to query the data from different sources and get a reliable data from them. 
-
-### AI decentralized smart contract governance
-
-The Aragon network provides a decentralized governance system based on smart contracts. The advantages of a system like that is that all the decisions are made very transparently and only rely on the execution of smart contracts.  
-
-In a current system like Aragon, the governance decisions are made by judges. In ATN, we will improve the “judges” by integrating AI in order to make better decisions. This upgraded version will bring more trust and fairness to the decision process. 
 
 ### AI services cooperation
 
@@ -387,7 +379,7 @@ ATN will  help users to perform complex AI tasks at very competitive prices. Thi
 
 ## Summary
 
-Unlike traditional AI systems with built-in limitations, centralized control, hard AI services cooperation, uncompetitive prices and fragmented AI services; ATN  with its decentralized system, autonomous and cooperative AI market, competitive prices and unified AI services is a breakthrough in the AI world. It will help to develop smarter AI applications that will bring benefits to society as a whole. Using AI in our daily life will enable us all to make better decisions and improve our lives.
+Unlike traditional AI systems with built-in limitations, centralized control, hard AI services cooperation, uncompetitive prices and fragmented AI services; ATN  provide a complete ecosystem build on a decentralized architecture, with autonomous and open source market, competitive prices and unified API calling services which is a huge improvement. It will help to develop smarter applications that will bring benefits to society as a whole. By encouraging the use of AI in our daily life we will be able to make better decisions and improve our lives.
 
 ## References
 1. XiaoI：http://www.xiaoi.com 
