@@ -215,8 +215,6 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 
 ![](img/image4.png) -->
 
-### AI Authorisation Service Management
-
 
 ### AI Data Computation Open Platform
 
@@ -323,61 +321,43 @@ The “zero-knowledge proof, from S.Goldwasser, S.Micali and C.Rackoff is a docu
 
 ### Business Architecture
 
-The ATN platform consists of the ATN blockchain, the A.I. services open platform, the DBot network platform and open data platform. This complete ecosystem which includes cross-platform smart contracts (Ethereum, Qtum, RSK ect…), DBot workers, training model workers, integrated AI plan solution providers, AI consumer services etc., will be the basis for a complete new and different open AI industry. Figure 3-1 shows the business architecture.
+The ATN platform consists of the ATN blockchain, the API Dbots, the computing Dbot, the data dbot and the cooperation Dbots. This complete ecosystem will be the basis for a complete new and different open AI industry. Figure 3-1 shows the business architecture.
 
 ![](img/image9.png)
 
 #### Actors
 
-##### AI service providers
+##### API service providers
 
-Using ATN will allow AI service provider to sell AI services and make them accessible to anyone on the ATN platform in exchange for ATN tokens when the service is used.  
+Using ATN will allow API  provider to sell any kind of API with an optimized design. We particulary emphasis on AI services to make them accessible to a large user base.
 
 ##### AI Consumers
 
 ATN makes it easy for any developer to create a browser for ATN using the Dapp metadata. This browser can list all the available services offered by the network such as list the AI services to make it easy for AI consumers to use the AI services. The AI consumer could be a smart contract, another AI service or an application. Access to all services require the use of ATN tokens. Payment for the service is held in escrow and the reward is processed by the ATN network once the API is used..
 
-#####  DBot Developers
 
-On the ATN platform, DBot developers will implement and publish the DBot contracts and be in charge of the authorisation process to access the third party AI services. DBot contracts are an adapter between ATN and AI services. The DBot contracts providers are rewarded for implementing and hosting services.
+##### DBot Server
 
-##### DBot worker
+DBot server are responsible for the execution of the DBot services and  participate in off-chain AI services. This is the based piece of technology which connect the AI world to the blockchain.
 
-DBot workers are responsible for the execution of the DBot services and  participate in off-chain AI service consensus. They are the ones who have a direct connection to the AI outside services and will get the data from the external sources. 
 
-##### ATN blockchain
+##### AI and API marketplace
 
-The ATN blockchain supports smart contract interoperability on different blockchains. It will connect Ethereum, Qtum and RSK smart contract platforms. That will enable cross-platform smart contract interoperability. 
+The AI marketplace is an user interface where consumers can see a vast range of services. They can also access to other user comments. You can our current alpha demo [here](https://market-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
-##### AI training and services open platform
+##### ATN explorer
 
-The ATN platform is used to connect  AI services to the AI marketplace. From the platform users can access different AI services, a description of their capabilities and the price of the services. The DBot developers will communication with that platform. 
+You can test our open source explorer [here](https://explorer-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=l052DZcWkzk)
 
-##### AI Solution Providers
+### ATN wallet
 
-All the various AI services provided by ATN will bring the consumer complete solution. More broadly, the AI open platform will be able to provide adapted solutions for all industries. 
+Download and install our latest wallet [here](https://github.com/ATNIO/atn-wallet) or watch a demo video [here](https://www.youtube.com/watch?v=he7evu28Djw)
 
-### Technology Architecture
 
-ATN is divided into three layers: the application layer, the middleware layer and infrastructure layer, which is  a blockchain network and smart contract platform together with the AI computing and service providers.
-
-x
-
-#### DApp Application
-
-ATN will create an Ethereum DApp which will have a set of contract to manage the different aspect of our network such as:
-
-* Service management contract
-* Entry contract
-* Account management contract
-* Token contract
-* Governance contract
-* Payment contract
-* Reward contract
 
 #### State Channels Network
 
-Some AI services require will be called often and thus require significant communication. Each time it is called it will do a transaction. In a normal blockchain network, this would incur significant transaction fees, so ATN uses a high-frequency micro-payment technology such as the Lightning Network or the Raiden Network 
+Some AI services  will be called often and thus require significant communication. Each time it is called it will do a transaction. In a normal blockchain network, this would incur significant transaction fees, so ATN uses a high-frequency micro-payment technology, **the payment channel.**
 
 ![](img/image11.png)
 
