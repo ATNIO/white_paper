@@ -44,7 +44,10 @@ The DBot technology is the first step to connect AI providers to AI consumers. Y
 
 ### Universal account
 
-ATN can also solve the problem of integration between fragmented AI services. ATN through its design will provide a decentralized and permissionless AI economic network accessible to everyone, solving the problem of complex access and facilitate cooperation between AI services. ATN provides an AI ecosystem with a payment network (payment channel) that create an economic infrastructure.
+
+Currently all major API service providers need access authorization, for example by signing requests using <app_key, app_secret>, where <app_key, app_secret> are usually provided by the API service provider.  
+
+ATN provides a unified API service authorization management solution. Its decentralized and permissionless design provide an economic network accessible to everyone, solving the problem of complex access and facilitate cooperation between AI services. ATN provides an API ecosystem with a payment network (payment channel) that create an economic infrastructure.
 
 ### Trustless and Interoperable AI
 
@@ -52,8 +55,6 @@ Joining ATN is simpler than joining  traditional AI services:
 * ATN provide API and Schema package of all existing AI services.
 * Auto implement an authorization and payment system for all API providers.
 * Have access a world-wide user base.
-
-
 
 
 ## ATN Basic Blockchain Architecture
@@ -187,18 +188,18 @@ If this condition is not fulfilled, ATN foundation will be responsible for at le
 **After the minimum of 15% of voting is reached**, it will become a traditional voting selection for block producers with no possibility to come back to the initial state, even if the voting percentage shrink below 15%.
 
 
-### DBot platform
+### DBot open platform
 
-* Off-chain consensus operation
-* Open source DBot server, provide DBot account maintenance operations
+* Open source DBot server, easy to configure and deploy.
+* Support REST API
 * Provide tools for DBot account registration and AI services
-* Open AI market and user interface to access AI services
-* AI deep learning algorithm, and computing power.
+* Open AI market entry and user interface to access AI services
+* AI deep learning algorithm, and computing power access.
 
 
-![](img/image3.jpg)
+<!-- ![](img/image3.jpg) -->
 
-#### Communication pattern between a smart contract and a DBot
+<!-- #### Oracle Dbot
 
 The blockchain execution of smart contract is deterministic, which means that if you execute a smart contract with the same parameters, it will always return the same answer and then it will update the blockchain records. That’s why we cannot directly query or call external services or any kind of Internet resources if they can introduce non-deterministic behavior. 
 
@@ -212,13 +213,10 @@ Here the DBot can be a trusted third party or can be an ATN DBot service selecte
 * The caller contract can execute its callback. 
 * During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
 
-![](img/image4.png)
+![](img/image4.png) -->
 
 ### AI Authorisation Service Management
 
-Currently all major AI service providers need access authorization, for example by signing requests using <app_key, app_secret>, where <app_key, app_secret> are usually provided by the AI service provider. In ATN, the DBot account which is calling the AI service is in charge of providing the access authorisation. The issue is that ultimately, the DBot account which calls the AI service, is chosen by the system or by a voting procedure. Therefore, ATN provides a unified AI service authorization management solution. 
-
-On the ATN platform, each DBot account will have a <public key, private key> pair. Every time a user calls an AI service, the DBot account needs to use the private key to sign the call request content or hash it. The AI service verifies the signature by using the DBot account public key. At the same time the DBot platform inquiry service provide the current status and controls if the selected DBot accounts have the rights to process the AI service. In order to avoid replay attack, the request should contain a random nonce number and if the nonce number is the same, the request will be rejected.
 
 ### AI Data Computation Open Platform
 
