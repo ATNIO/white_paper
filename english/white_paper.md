@@ -33,9 +33,13 @@ ATN manages, promotes and fosters technology co-creation and collaboration to he
 
 ### Connecting Blockchain and A.I. 
 
+#### Open platform
+
+ATN is an open and open-source platform that allows third-party developers to build applications that can connect and exchange with the services of the network.
+
 The first step in developing the ATN platform is to build a blockchain service that connects different AI services together to create a blockchain smart contract ecosystem for the benefit of users. We'll introduce the Dbot technology to provide quick access to AI services.
 
-The DBot technology is the first step to connect AI providers to AI consumers. You can find a video of our current progress [[ here | https://www.youtube.com/watch?v=rj1Rvjr4kxA]] and test it out.
+The DBot technology is the first step to connect AI providers to AI consumers. You can find a video of our current progress [here](https://www.youtube.com/watch?v=rj1Rvjr4kxA) and test it out.
 
 
 ### Universal account
@@ -46,26 +50,31 @@ ATN can also solve the problem of integration between fragmented AI services. AT
 
 Joining ATN is simpler than joining  traditional AI services:
 * ATN provide API and Schema package of all existing AI services.
-* Implement the Dbot Oracle Predictive Machine, connect it to the AI services and deploy to ATN’s distributed relay server
-* Develop smart contracts that call AI services, define the pricing strategy and other parameters, deploy and register on ATN AI service management smart contract.
+* Auto implement an authorization and payment system for all API providers.
+* Have access a world-wide user base.
 
-### Open platform
 
-ATN is an open platform, which can be extended through intelligent contracts to enable interaction and collaboration with other Ethereum Dapps. The open-source nature of the ATN allows third-party developers to build applications that can connect and exchange with the services of the network.
 
-## Detailed proposal
 
-### Cross-blockchain ATN token 
+## ATN Basic Blockchain Architecture
 
-#### ATN token
+### Basic chain
 
-ATN tokens are the main token of the ATN platform. ATN tokens can be used to pay for fees and “gas” by users to access AI services, or can be a reward for a Dbot user account which provides an AI service. 
+![](img/image5.png)
+
+* The DBot blockchain supports EVM compatible smart contracts
+* Improvement of DPOS consensus algorithm
+* ATN tokens migrate to the ATN blockchain as native token
+* Dbot account moves to the Dbot blockchain
+
+### ATN token
+
+ATN tokens are the main token of the ATN platform. ATN tokens can be used to pay for fees and “gas” by users to access AI services, or can be a reward for a block producer.
 
 The purpose of ATN is to become a DAO where ATN tokens will be used for the governance system.
 
 We will support ERC-20 and ERC-223 standards of the EVM-compatible smart contract ethereum platform.
 
-The ERC-20 Token Standard describes methods and events that Ethereum tokens must implement and follow. The majority of token contracts only support the ERC-20 standard but ATN will also support ERC-223 standard as it overcomes some of the shortcomings in the ERC-20 standard and also bring some additional benefits.
 
 #### Cross-blockchain token support
 
@@ -81,54 +90,6 @@ At a later stage we will introduce a side-chain or a cross-chain protocol and th
 
 Even if different blockchains can possess ATN tokens, the overall total number of tokens will be constant. This mechanism will be ensured by the Swap Router technology in the project’s first phase and will then be a native cross blockchain feature in subsequent phases.
 
-### Cross blockchain and cross-DApp platform
-
-In order to use AI services on different blockchains, ATN will implement a DApp in the Ethereum environment and subsequently DApps in other smart contract environments such as Qtum, RSK, etc...  Different DApps in different blockchains will need to support ATN’s base blockchain interoperable smart contracts.
-
-An ATN DApp contract should have these properties:
-* A token contract
-* An authorisation account manager which contains information on the AI service side account, the DBot account, consumer accounts and user authentication modules that access third party contracts (such as uport)
-* An AI registration service manager used to register the AI service, which contains information on the AI service registered, inquiries, the price of the service, information regarding the availability of the service and the way it expects to communicate. This can also include additional details such as the use of special communication channel (e.g. the lightning network)
-* A DBot proxy contract which is in charge of communicating with outside services and which is responsible to execute callbacks after receiving results from external services. This includes oracle implementation, DBot account management, off-chain consensus algorithms and  return of  AI service results back to the DApp.
-* DApp autonomy and renewal management contracts which include upgrading the relevant contracts and separation of the contractual logic and the data.
-
-### DBot platform
-
-* Off-chain consensus operation
-* Open source DBot server, provide DBot account maintenance operations
-* Provide tools for DBot account registration and AI services
-* Open AI market and user interface to access AI services
-* AI deep learning algorithm, and computing power.
-
-
-![](img/image3.jpg)
-
-#### Communication pattern between a smart contract and a DBot
-
-The blockchain execution of smart contract is deterministic, which means that if you execute a smart contract with the same parameters, it will always return the same answer and then it will update the blockchain records. That’s why we cannot directly query or call external services or any kind of Internet resources if they can introduce non-deterministic behavior. 
-
-The introduction of DBot will solve this issue. Communication between smart contracts and DBots are asynchronous. When a smart contract wants to access an AI service, it will trigger an event.  The DBot node will receive it and communicate with the AI service according to the parameters and the strategy chosen in the smart contract.  Then it will receive the result and send it back to the blockchain smart-contract. 
-
-Here the DBot can be a trusted third party or can be an ATN DBot service selected through the governance group mechanism. The DApp ensures the DBot data reliability through an economical reward mechanism. This mechanism includes the following steps:
-*  Creation of an AI registration service manager contract which contains information such as the corresponding DBot account administration strategy. This DBot account is responsible for defining the communication protocol between the AI services and the DBot worker.
-* A free inquiry about the AI service.
-* A consensus strategy to return more accurate and reliable deterministic data.
-* The AI registry service contract forwards the AI result to the caller contract.
-* The caller contract can execute its callback. 
-* During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
-
-![](img/image4.png)
-
-### ATN Basic Blockchain Architecture
-
-#### Basic chain
-
-![](img/image5.png)
-
-* The DBot blockchain supports EVM compatible smart contracts
-* Improvement of DPOS consensus algorithm
-* ATN tokens migrate to the ATN blockchain as native token
-* Dbot account moves to the Dbot blockchain
 
 ### Economy and incentive of ATN chain
 
@@ -224,6 +185,34 @@ You can decide to **unstake your token at any moment** and you will get them bac
 In order to protect the network, ATN voting percentage will need to reach a minimum of 15% of the current circulating supply.
 If this condition is not fulfilled, ATN foundation will be responsible for at least ⅔ of the block producers.
 **After the minimum of 15% of voting is reached**, it will become a traditional voting selection for block producers with no possibility to come back to the initial state, even if the voting percentage shrink below 15%.
+
+
+### DBot platform
+
+* Off-chain consensus operation
+* Open source DBot server, provide DBot account maintenance operations
+* Provide tools for DBot account registration and AI services
+* Open AI market and user interface to access AI services
+* AI deep learning algorithm, and computing power.
+
+
+![](img/image3.jpg)
+
+#### Communication pattern between a smart contract and a DBot
+
+The blockchain execution of smart contract is deterministic, which means that if you execute a smart contract with the same parameters, it will always return the same answer and then it will update the blockchain records. That’s why we cannot directly query or call external services or any kind of Internet resources if they can introduce non-deterministic behavior. 
+
+The introduction of DBot will solve this issue. Communication between smart contracts and DBots are asynchronous. When a smart contract wants to access an AI service, it will trigger an event.  The DBot node will receive it and communicate with the AI service according to the parameters and the strategy chosen in the smart contract.  Then it will receive the result and send it back to the blockchain smart-contract. 
+
+Here the DBot can be a trusted third party or can be an ATN DBot service selected through the governance group mechanism. The DApp ensures the DBot data reliability through an economical reward mechanism. This mechanism includes the following steps:
+*  Creation of an AI registration service manager contract which contains information such as the corresponding DBot account administration strategy. This DBot account is responsible for defining the communication protocol between the AI services and the DBot worker.
+* A free inquiry about the AI service.
+* A consensus strategy to return more accurate and reliable deterministic data.
+* The AI registry service contract forwards the AI result to the caller contract.
+* The caller contract can execute its callback. 
+* During all the preceding steps, the AI registry service contract is responsible for collecting the fees to use of the AI services. It will reward the DBot account regarding their registered information.
+
+![](img/image4.png)
 
 ### AI Authorisation Service Management
 
