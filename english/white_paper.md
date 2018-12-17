@@ -347,9 +347,13 @@ The AI marketplace is an user interface where consumers can see a vast range of 
 
 You can test our open source explorer [here](https://explorer-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=l052DZcWkzk)
 
-### ATN wallet
+##### ATN wallet
 
 Download and install our latest wallet [here](https://github.com/ATNIO/atn-wallet) or watch a demo video [here](https://www.youtube.com/watch?v=he7evu28Djw)
+
+##### ATN Client Library
+
+In order to interact with our ecosystem and access all kind of API in a convenient way, we provide a library. You can find our github [here](https://github.com/ATNIO/pyatn-client) and watch a demo video [here](https://www.youtube.com/watch?v=--iwBbZUEmA)
 
 
 
