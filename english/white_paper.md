@@ -85,7 +85,7 @@ More details can be found in the economic part of this paper.
 
 #### AI and API marketplace
 
-The AI marketplace is an user interface where consumers can see a vast range of services. They can also access to other user comments regarding services. You can our current alpha demo [here](https://market-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
+The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
 The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
 Through admin pages, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
