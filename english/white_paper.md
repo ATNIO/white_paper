@@ -45,49 +45,78 @@ The DBot technology is the first step to connect AI providers to AI consumers. Y
 
 Currently all major API service providers need access authorization, for example by signing requests using <app_key, app_secret>, where <app_key, app_secret> are usually provided by the API service provider.  
 
-ATN provides a unified API service authorization management solution. Its decentralized and permissionless design provide an economic network accessible to everyone, solving the problem of complex access and facilitate cooperation between AI services. ATN provides an API ecosystem with a payment network (payment channel) that create an economic infrastructure.
+ATN provides a unified API service authorization management solution. Its decentralized and permissionless design provide a network accessible to everyone, solving the problem of complex access and facilitate cooperation between AI services. ATN provides this ecosystem with an almost instant and without fees payment network (payment channel) that create an economic layer which will benefit providers and users.
 
 ### Trustless and Interoperable AI
 
-Joining ATN is simpler than joining  traditional AI services:
+ATN ecosystem has been designed to be very simple to use and to give provider as much freedom as they want. It's an attempt to reduce the gap between providers and consumers. Joining ATN is simpler than joining  traditional AI services:
 * ATN provide API and Schema package of all existing AI services.
 * Auto implement an authorization and payment system for all API providers.
 * Have access a world-wide user base.
 
 
-## ATN Basic Blockchain Architecture
+## ATN Ecosystem Architecture
 
-### Basic chain
+### Ecosystem overview
 
-![](img/image5.png)
+![](img/atn-ecosystem.png)
 
-* The DBot blockchain supports EVM compatible smart contracts
-* Improvement of DPOS consensus algorithm
-* ATN tokens migrate to the ATN blockchain as native token
-* Dbot account moves to the Dbot blockchain
+* API, data and computing power marketplaces
+* Rich developper ecosystem with different kind of Dbots.
+* Developper ecosystem with libraries to access ATN services.
+* The ATN chain supports EVM  smart contracts.
+* Improvement of DPOS consensus algorithm.
 
 ### ATN token
 
 ATN tokens are the main token of the ATN platform. ATN tokens can be used to pay for fees and “gas” by users to access AI services, or can be a reward for a block producer.
 
+An amount of ATN tokens needs to be frozen in order to deploy a block producer. This is a protection mechanism in order to make potential network attacks and bad block producer behavior expensive.
+
+ATN token will also be used to elect for block producers.
+
 The purpose of ATN is to become a DAO where ATN tokens will be used for the governance system.
 
-We will support ERC-20 and ERC-223 standards of the EVM-compatible smart contract ethereum platform.
+We will support ERC-20 and ERC-223 standards of the EVM-compatible smart contract ethereum platform which will allow service provider to deploy they own mean of exchange in ATN ecosystem.
+
+More details can be found in the economic part of this paper.
+
+### Consumers and providers interaction.
+
+#### AI and API marketplace
+
+The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
+
+The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
+Through admin pages, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
+
+#### Control level
+
+We can define **public versus private services** as following:
+**A public service** is a service registered in a public registry thus knowable by anybody.
+**A private servie** is a service which is not a public service.
+
+We can define **open service** and **permissioned service** as following:
+**An open service** is a service where consumers don't need to be whitelisted in order to be accessed.
+**A permissioned service** is a service where consumers need to be whitelisted in order to use it.
+
+A service can support **native ATN** payment or **customized payment**, customized in this context means that the provider will support his own mean of payment in the ecosystem by accepting his another token supported in ATN ecosystem. This token can be deployed by the provider.
+
+The combination of these different level of control give an huge freedom to providers and consumers in the way they want to use ATN ecosystem. It can range from public market of open services to  private market with permissioned services with customized payment.
+
+This flexible open-source ecosystem build on a complete decentralized infrastructure without single point of failure.
 
 
-#### Cross-blockchain token support
 
-Unlike normal tokens, ATN tokens are designed to be cross-blockchain tokens which means that ATN tokens can be used and exchanged other blockchains such as Ethereum, Qtum, RSK, etc..
+#### Payment channel
 
-In order to enable ATN tokens to be used on different blockchains, in the first stage of the project, we will introduce the ATN Swap Router.  This is a centralised service that will help with token circulation between the different blockchains.
+Some AI services  will be called often and thus require significant amount of communication. With a very naive design we would have to charge each time the service is called by doing a transaction which will result in significant transaction fees and which will be very slow (compare to traditional centralized system). That's why ATN uses a high-frequency micro-payment technology, **the payment channel.** and put it at the core of it's system and we believe that the majority of transactions between consumer will be done through it. You can see below the sequence diagram to open such a payment channel. We have more technical resources regarding payment channel that are located to our other open-source project. We decided to put that one in the whitepaper following the language-idiom "A picture is worth a thousand words". We believe it can help newcomers to have a better understanding on how it works in pratice.
 
-![](img/image1.jpg)
+<!-- ![](img/image11.png) -->
 
-At a later stage we will introduce a side-chain or a cross-chain protocol and the swap router will become part of the ATN infrastructure. With the help of the side chain and sharding technology, we will implement atomic cross blockchain operation. 
+##### Estabishing payment channel sequence diagram.
 
-![](img/image2.jpg)
-
-Even if different blockchains can possess ATN tokens, the overall total number of tokens will be constant. This mechanism will be ensured by the Swap Router technology in the project’s first phase and will then be a native cross blockchain feature in subsequent phases.
+![](img/dbot_with_state_channel.svg)
 
 
 ### Economy and incentive of ATN chain
@@ -188,7 +217,7 @@ If this condition is not fulfilled, ATN foundation will be responsible for at le
 
 ### DBot open platform
 
-* Open source DBot server, easy to configure and deploy.
+* Open source DBot server, easy to configure and deploy, admin panel with metrics, access control system, logging system, support replicates.
 * Support REST API
 * Provide tools for DBot account registration and AI services
 * Open AI market entry and user interface to access AI services
@@ -355,17 +384,6 @@ Download and install our latest wallet [here](https://github.com/ATNIO/atn-walle
 
 In order to interact with our ecosystem and access all kind of API in a convenient way, we provide a library. You can find our github [here](https://github.com/ATNIO/pyatn-client) and watch a demo video [here](https://www.youtube.com/watch?v=--iwBbZUEmA)
 
-
-
-#### State Channels Network
-
-Some AI services  will be called often and thus require significant communication. Each time it is called it will do a transaction. In a normal blockchain network, this would incur significant transaction fees, so ATN uses a high-frequency micro-payment technology, **the payment channel.**
-
-<!-- ![](img/image11.png) -->
-
-##### Estabishing payment channel flow.
-
-![](img/dbot_with_state_channel.svg)
 
 ## User case
 
