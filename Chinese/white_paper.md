@@ -84,6 +84,7 @@ ATN主链将采用优化后的代理权益证明共识机制保障区块链的�
 #### 累计投票机制
 
 在优化后的DPOS共识算法里，参选节点$k$的周期$n$的被投票数$v_{k,n}$的计算，考虑了其历史表现，即用该周期内该节点获得的所有票数$t_{k,n}$，乘以该节点在最近的一个出块周期里的出块率。即:
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 $$\forall k, {  s_{k,0} = S_{initial} = 80
   }$$
