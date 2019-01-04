@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # ATN 技术白皮书
 ### 版本 0.3.3
 ## 摘要
@@ -84,30 +83,20 @@ ATN主链将采用优化后的代理权益证明共识机制保障区块链的�
 #### 累计投票机制
 
 在优化后的DPOS共识算法里，参选节点$k$的周期$n$的被投票数$v_{k,n}$的计算，考虑了其历史表现，即用该周期内该节点获得的所有票数$t_{k,n}$，乘以该节点在最近的一个出块周期里的出块率。即:
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-$$\forall k, {  s_{k,0} = S_{initial} = 80
-  }$$
+
+![](./img/f1.png)
 
 
 $k$是节点的唯一身份标识信息，$n$是节点累计参与出块的周期数。$s_{k,n}$表示节点$k$在出块周期$n$的节点评分。等式(2)表示未曾出块的节点被授予$80$的初始评分。
 
  $p_{k,n}$是节点$k$在出块周期$n$的出块比例乘以100，即:
 
-$$\forall k, \forall n\geq 1, {  
-​        s_{k,n}=
-​       \begin{cases}
-​        s_{k,n-1}  &\mbox{如果 $k \notin 周期n的出块节点集合 $}\\ 
-​        \alpha s_{k,n-1} + (1-\alpha)p_{k,n} &\mbox{如果 $k \in 出块节点集合$，且$p_{k,n} \in [S_{low}, S_{max}]$}\\
-​        s_{k,n-1} - \beta &\mbox{如果 $k \in 出块节点集合$，且 $p_{k,n} \in [S_{min},S_{low})$}\\
-​       \end{cases}
-​    }$$
-
-​				$$\forall k, {  p_{k,0} = S_{max} = 100 }$$
+![](./img/f2.png)
 
 - 周期n的出块节点集合的粗略定义如下，其中$\delta$是当前年份的超级节点个数。
 
-  ​	$$\forall n > 1, { 周期n的出块节点集合 = \{ k \mid p_{k,n-1} \ge 60， 且 v_{k,n}得分排名属于前 \delta 个 \}  }$$
+ ![](./img/f3.png)
 
 注意，$n=0$时为创世周期，此时的出块节点集合为一个例外，由ATN基金会部署的超级节点为该周期的出块节点集合。这与本文的第3.1小节的设计保持一致。
 
@@ -135,18 +124,7 @@ $$\forall k, \forall n\geq 1, {
 
 - 主动卸任:出块节点或者备选节点可以在任意时刻选择撤回质押代币，这意味着它将不在选择担任公链的支撑节点。所退质押代币的数量$r_{k}$由以下公式获得, 其中$s_k$表示节点$k$的最新节点评分，$D$表示全部质押代币数量，推荐值为10000。
 
-$$
-{ r_{k} =   \begin{cases}
-
-​        D  &\mbox{如果 $s_{k} \geq S_{initial} $}\\ 
-
-​        D\times \frac {s_{k} - S_{abandon}}{S_{initial} - S_{abandon}}  &\mbox{如果 $S_{abandon} \leq s_{k} < S_{initial} $}\\
-
-​        0 &\mbox{如果 $s_{k} < S_{abandon} $}\\
-
-​       \end{cases} 
-}
-$$
+![](./img/f4.png)
 
 - 被动卸任：出块节点或者备选节点因为表现糟糕，导致其节点评分低于$S_{abandon} = 32$分，则它将被罚没所有质押代币, 即$r_k = 0$。如果该节点希望再次有机会成为备选节点或者出块节点，它需要重新进行质押，这意味着它再次进入候选人列表且被授予初始节点评分$S_{initial}$。
 
