@@ -65,7 +65,6 @@ ATN ecosystem has been designed to be very simple to use and to give provider as
 * Rich developper ecosystem with different kind of Dbots.
 * Developper ecosystem with libraries to access ATN services.
 * The ATN chain supports EVM  smart contracts.
-* Improvement of DPOS consensus algorithm.
 
 ### ATN token
 
@@ -73,11 +72,11 @@ ATN tokens are the main token of the ATN platform. ATN tokens can be used to pay
 
 An amount of ATN tokens needs to be frozen in order to deploy a block producer. This is a protection mechanism in order to make potential network attacks and bad block producer behavior expensive.
 
-ATN token will also be used to elect for block producers.
+ATN token will also be used to elect block producers.
 
 The purpose of ATN is to become a DAO where ATN tokens will be used for the governance system.
 
-We will support ERC-20 and ERC-223 standards of the EVM-compatible smart contract ethereum platform which will allow service provider to deploy they own mean of exchange in ATN ecosystem.
+We will support ERC-20 and ERC-223 standards of the EVM-compatible smart contract ethereum platform which will allow service providers to deploy their own means of exchange in ATN ecosystem.
 
 More details can be found in the economic part of this paper.
 
@@ -88,35 +87,42 @@ More details can be found in the economic part of this paper.
 The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
 The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
-Through admin pages, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
+Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
 
 #### Control level
 
 We can define **public versus private services** as following:
 **A public service** is a service registered in a public registry thus knowable by anybody.
-**A private servie** is a service which is not a public service.
+**A private service** is a service which is not a public service.
 
 We can define **open service** and **permissioned service** as following:
 **An open service** is a service where consumers don't need to be whitelisted in order to be accessed.
 **A permissioned service** is a service where consumers need to be whitelisted in order to use it.
 
-A service can support **native ATN** payment or **customized payment**, customized in this context means that the provider will support his own mean of payment in the ecosystem by accepting his another token supported in ATN ecosystem. This token can be deployed by the provider.
+A service can support **native ATN** payment or **customized payment**, customized in this context means that the provider will support his own mean of payment in the ecosystem by accepting  another token supported in ATN ecosystem. This token can be deployed by the provider.
 
 The combination of these different level of control give an huge freedom to providers and consumers in the way they want to use ATN ecosystem. It can range from public market of open services to  private market with permissioned services with customized payment.
-
-This flexible open-source ecosystem build on a complete decentralized infrastructure without single point of failure.
 
 
 
 #### Payment channel
 
-Some AI services  will be called often and thus require significant amount of communication. With a very naive design we would have to charge each time the service is called by doing a transaction which will result in significant transaction fees and which will be very slow (compare to traditional centralized system). That's why ATN uses a high-frequency micro-payment technology, **the payment channel.** and put it at the core of it's system and we believe that the majority of transactions between consumer will be done through it. You can see below the sequence diagram to open such a payment channel. We have more technical resources regarding payment channel that are located to our other open-source project. We decided to put that one in the whitepaper following the language-idiom "A picture is worth a thousand words". We believe it can help newcomers to have a better understanding on how it works in pratice.
+Some AI services  will be called often and thus require significant amount of communication. With a very naive design we would have to charge each time the service is called by doing a transaction which will result in significant transaction fees and which will be very slow (compare to traditional centralized system). That's why ATN uses a high-frequency micro-payment technology, **the payment channel**, put it at the core of it's design and believe that the majority of transactions between consumers and providers will be done through it. You can see below the sequence diagram to use such a payment channel. We will provide more technical resources regarding payment channel which will be in our other open-source repositories. We decided to put that one here following the language-idiom "A picture is worth a thousand words". We believe it can help newcomers to have a better understanding on how it works in pratice.
 
 <!-- ![](img/image11.png) -->
 
 ##### Estabishing payment channel sequence diagram.
 
 ![](img/dbot_with_state_channel.svg)
+
+Once the payment channel is establish. The interaction between providers and consumers is as fast as a centralized system.
+It also offer a pay-per-call design which is a great way of charging a product for a provider.
+Proofs of payment will be onchain to add more transparency.
+
+
+#### Dbot server technology.
+
+The Dbot server is a key component of ATN ecosystem. You can find a detailed documentation [here](https://github.com/ATNIO/dbot-server)
 
 
 ### Economy and incentive of ATN chain
@@ -344,15 +350,8 @@ In order to use parameterized model services, users first need to upload a set o
 
 The “zero-knowledge proof, from S.Goldwasser, S.Micali and C.Rackoff is a document written in 1980. It means that the prover can convince the verifier that a certain assertion is correct without providing the verifier any useful information. Zero-knowledge proof is essentially an agreement involving two or more parties, and a series of steps that are required to be done by the parties. The prover will convince the verifier without leaking any information. The zero-knowledge proof is a very useful cryptographic tools and is the perfect tool to protect data sovereignty and privacy.
 
-## Architecture Design
 
-### Business Architecture
-
-The ATN platform consists of the ATN blockchain, the API Dbots, the computing Dbot, the data dbot and the cooperation Dbots. This complete ecosystem will be the basis for a complete new and different open AI industry. Figure 3-1 shows the business architecture.
-
-![](img/image9.png)
-
-#### Actors
+## Actors
 
 ##### API service providers
 
@@ -362,17 +361,39 @@ Using ATN will allow API  provider to sell any kind of API with an optimized des
 
 ATN makes it easy for any developer to create a browser for ATN using the Dapp metadata. This browser can list all the available services offered by the network such as list the AI services to make it easy for AI consumers to use the AI services. The AI consumer could be a smart contract, another AI service or an application. Access to all services require the use of ATN tokens. Payment for the service is held in escrow and the reward is processed by the ATN network once the API is used..
 
-
 ##### DBot Server
 
 DBot server are responsible for the execution of the DBot services and  participate in off-chain AI services. This is the based piece of technology which connect the AI world to the blockchain.
+[check documentation here](https://github.com/ATNIO/dbot-server)
 
 
 ##### AI and API marketplace
 
-The AI marketplace is an user interface where consumers can see a vast range of services. They can also access to other user comments. You can our current alpha demo [here](https://market-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
+The AI marketplace is an user interface where consumers can see a vast range of services. 
+
+![](img/aimarket.png)
+
+###### API market features:
+
+* open source
+* can be public or private
+* automatic generation of API documentation (according to open API standard)
+* Admin metrics
+* will support multilanguage API documentation generation
+
+You can test our current alpha demo [here](https://market-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
 ##### ATN explorer
+
+![](img/explorer.png)
+
+This is an image of the current explorer on ATN testnet
+
+###### Explorer features:
+
+* will show the list of block producer with their current voting percentage.
+* open source
+* provide all basic features an explorer
 
 You can test our open source explorer [here](https://explorer-test.atnio.net/) or watch a demo video [here](https://www.youtube.com/watch?v=l052DZcWkzk)
 
@@ -384,8 +405,7 @@ Download and install our latest wallet [here](https://github.com/ATNIO/atn-walle
 
 In order to interact with our ecosystem and access all kind of API in a convenient way, we provide a library. You can find our github [here](https://github.com/ATNIO/pyatn-client) and watch a demo video [here](https://www.youtube.com/watch?v=--iwBbZUEmA)
 
-
-## User case
+<!-- ## User case
 
 In this section we will show some typical user case scenarios. This is just the tip of the iceberg but they are good illustrations of the potential of the ATN to improve the AI industry.
 
@@ -394,7 +414,7 @@ In this section we will show some typical user case scenarios. This is just the 
 
 Currently most AI services are separated from each other. ATN strongly believe that the AI cooperation is one of the most important feature in the future.  ATN is designed to facilitate AI cooperation.
 
-ATN will  help users to perform complex AI tasks at very competitive prices. This new ecosystem will be beneficial for the AI world and for AI users, making AI easily available and affordable. 
+ATN will  help users to perform complex AI tasks at very competitive prices. This new ecosystem will be beneficial for the AI world and for AI users, making AI easily available and affordable. --> 
 
 
 ## Summary
