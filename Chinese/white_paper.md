@@ -29,7 +29,14 @@ ATN是一个可通过智能合约扩展的开放平台，从而实现与其它�
 
 ## 架构设计
 ### 总览
-TBD
+pic 
+
+
+- API, 数据，和算力市场
+- 丰富的开发者生态和多种形态的Dbots
+- 可以接入ATN服务的各种开发者库包
+- 支持以太坊虚拟机(EVM)的智能合约
+
 ### ATN代币标准
 ATN代币为ATN网络的主要代币。ATN代币可以作为用户使用ATN区块链网络和AI服务的费用和燃料，也可以作为DBot账户提供约定服务的激励报酬和AI服务提供商的收入。ATN代币是ATN网络的通用代币。
 
@@ -48,6 +55,10 @@ ERC20 代币标准描述了以太坊代币合约必须实现和遵循的方法�
 
 ## 服务提供者和消费者的交互
 ### 人工智能和API市场
+The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
+
+The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
+Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
 ### 控制层
 ### 支付通道
 
