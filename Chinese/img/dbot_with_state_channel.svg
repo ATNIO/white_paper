@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="processonSvg1000" viewBox="22.0 163.0 1291.0 1336.0" width="1291.0" height="1336.0">
+<defs id="ProcessOnDefs1001">
+<marker id="ProcessOnMarker1043" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1044" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1053" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1054" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1060" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1061" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1068" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1069" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1080" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1081" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1098" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1099" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc0000" stroke-width="2.0" fill="#cc0000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1106" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1107" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1113" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1114" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1125" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1126" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1132" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1133" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1139" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1140" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#323232" stroke-width="2.0" fill="#323232" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1167" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1168" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#323232" stroke-width="2.0" fill="#323232" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1174" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1175" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1181" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1182" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#323232" stroke-width="2.0" fill="#323232" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1193" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1194" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1200" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1201" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1207" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1208" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1214" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1215" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1227" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1228" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1234" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1235" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1242" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1243" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1246" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1247" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1250" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1251" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1254" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1255" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1261" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1262" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#323232" stroke-width="2.0" fill="#323232" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1268" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1269" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1272" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1273" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1276" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1277" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1283" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1284" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1290" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1291" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1294" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1295" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1302" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1303" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1306" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1307" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1310" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1311" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1317" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1318" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#cc6600" stroke-width="2.0" fill="#cc6600" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1329" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1330" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#000000" stroke-width="2.0" fill="#000000" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1348" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1349" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#66cc00" stroke-width="2.0" fill="#66cc00" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1352" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1353" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#66cc00" stroke-width="2.0" fill="#66cc00" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1356" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1357" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#66cc00" stroke-width="2.0" fill="#66cc00" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1360" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1361" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#66cc00" stroke-width="2.0" fill="#66cc00" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1380" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1381" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#323232" stroke-width="2.0" fill="#323232" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+<marker id="ProcessOnMarker1391" markerUnits="userSpaceOnUse" orient="auto" markerWidth="16.23606797749979" markerHeight="10.550836550532098" viewBox="-1.0 -1.3763819204711736 16.23606797749979 10.550836550532098" refX="-1.0" refY="3.8990363547948754">
+<path id="ProcessOnPath1392" d="M12.0 3.8990363547948754L0.0 7.798072709589751V0.0Z" stroke="#66cc00" stroke-width="2.0" fill="#66cc00" transform="matrix(1.0,0.0,0.0,1.0,0.0,0.0)"/>
+</marker>
+</defs>
+<g id="ProcessOnG1002">
+<path id="ProcessOnPath1003" d="M22.0 163.0H1313.0V1499.0H22.0V163.0Z" fill="none"/>
+<g id="ProcessOnG1004">
+<g id="ProcessOnG1005" transform="matrix(1.0,0.0,0.0,1.0,736.0,183.0)" opacity="1.0">
+<path id="ProcessOnPath1006" d="M0.0 0.0L541.0 0.0L541.0 1296.0L0.0 1296.0Z" stroke="#737373" stroke-width="2.0" stroke-dasharray="10.0 4.0 2.0 4.0" opacity="1.0" fill="#ccffcc"/>
+</g>
+<g id="ProcessOnG1007" transform="matrix(1.0,0.0,0.0,1.0,872.0,183.0)" opacity="1.0">
+<path id="ProcessOnPath1008" d="M0.0 0.0L390.0 0.0L390.0 102.0L0.0 102.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#e6ffcc"/>
+</g>
+<g id="ProcessOnG1009" transform="matrix(1.0,0.0,0.0,1.0,743.0,294.10653460562867)" opacity="1.0">
+<path id="ProcessOnPath1010" d="M64.5 30.0L64.5 1177.873353759069" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1011" d="M0.0 0.0L129.0 0.0L129.0 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1012" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1013" fill="#000000" font-size="13" x="53.5" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">DBot&amp;Channel</text>
+<text id="ProcessOnText1014" fill="#000000" font-size="13" x="53.5" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">RPC Service</text>
+</g>
+</g>
+<g id="ProcessOnG1015" transform="matrix(1.0,0.0,0.0,1.0,881.0,224.0)" opacity="1.0">
+<path id="ProcessOnPath1016" d="M47.5 30.0L47.5 1252.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1017" d="M0.0 0.0L95.0 0.0L95.0 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffcc"/>
+<g id="ProcessOnG1018" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1019" fill="#000000" font-size="13" x="36.5" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">DBot Mgr </text>
+<text id="ProcessOnText1020" fill="#000000" font-size="13" x="36.5" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Contract</text>
+</g>
+</g>
+<g id="ProcessOnG1021" transform="matrix(1.0,0.0,0.0,1.0,1006.0,395.83518540886575)" opacity="1.0">
+<path id="ProcessOnPath1022" d="M52.44701726427547 30.0L52.44701726427547 1083.164814591134" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1023" d="M0.0 0.0L104.89403452855095 0.0L104.89403452855095 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffcc"/>
+<g id="ProcessOnG1024" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1025" fill="#000000" font-size="13" x="41.44701726427547" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">DBot Pool </text>
+<text id="ProcessOnText1026" fill="#000000" font-size="13" x="41.44701726427547" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Contract</text>
+</g>
+</g>
+<g id="ProcessOnG1027" transform="matrix(1.0,0.0,0.0,1.0,287.5887223974763,234.0)" opacity="1.0">
+<path id="ProcessOnPath1028" d="M12.274185068349102 5.875C12.274185068349102 -1.9583333333333333 24.548370136698203 -1.9583333333333333 24.548370136698203 5.875C24.548370136698203 13.708333333333334 12.274185068349102 13.708333333333334 12.274185068349102 5.875M18.411277602523654 11.75L18.411277602523654 35.25M18.411277602523654 35.25L3.0685462670872754 47.0M18.411277602523654 35.25L33.75400893796003 47.0M0.0 23.5L36.82255520504731 23.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<path id="ProcessOnPath1029" d="M0.0 0.0L36.82255520504731 0.0L36.82255520504731 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+</g>
+<g id="ProcessOnG1030" transform="matrix(1.0,0.0,0.0,1.0,152.0,294.10653460562867)" opacity="1.0">
+<path id="ProcessOnPath1031" d="M48.99593157764801 30.0L48.99593157764801 1184.893465394371" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1032" d="M0.0 0.0L97.99186315529602 0.0L97.99186315529602 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1033" transform="matrix(1.0,0.0,0.0,1.0,10.0,6.875)">
+<text id="ProcessOnText1034" fill="#000000" font-size="13" x="37.99593157764801" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">APP(User)</text>
+</g>
+</g>
+<g id="ProcessOnG1035" transform="matrix(1.0,0.0,0.0,1.0,259.0,294.10653460562867)" opacity="1.0">
+<path id="ProcessOnPath1036" d="M47.0 30.0L47.0 1184.893465394371" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1037" d="M0.0 0.0L94.0 0.0L94.0 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1038" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1039" fill="#000000" font-size="13" x="36.0" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">DBot</text>
+<text id="ProcessOnText1040" fill="#000000" font-size="13" x="36.0" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Owner</text>
+</g>
+</g>
+<g id="ProcessOnG1041">
+<path id="ProcessOnPath1042" d="M806.0 385.756679389313L867.5 385.756679389313L867.5 385.756679389313L913.7639320225002 385.756679389313" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1043)"/>
+</g>
+<g id="ProcessOnG1045" transform="matrix(1.0,0.0,0.0,1.0,593.9076086956522,294.10653460562855)" opacity="1.0">
+<path id="ProcessOnPath1046" d="M64.97619946789045 30.0L64.97619946789045 1184.8934653943713" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1047" d="M0.0 0.0L129.9523989357809 0.0L129.9523989357809 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1048" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1049" fill="#000000" font-size="13" x="53.97619946789045" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13"> DBot&amp;Channel</text>
+<text id="ProcessOnText1050" fill="#000000" font-size="13" x="53.97619946789045" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Off-Chain Server</text>
+</g>
+</g>
+<g id="ProcessOnG1051">
+<path id="ProcessOnPath1052" d="M928.0 503.0L793.5 503.0L793.5 503.0L674.2360679774998 503.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1053)"/>
+<g id="ProcessOnG1055" transform="matrix(1.0,0.0,0.0,1.0,801.1180339887499,495.5)">
+<path id="ProcessOnPath1056" d="M0 0H114.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-57.0,0.0)"/>
+<text id="ProcessOnText1057" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">DBot Pool Created</text>
+</g>
+</g>
+<g id="ProcessOnG1058">
+<path id="ProcessOnPath1059" d="M414.0 612.7566793893129L609.0 612.7566793893129L609.0 612.7566793893129L788.7639320225002 612.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1060)"/>
+<g id="ProcessOnG1062" transform="matrix(1.0,0.0,0.0,1.0,601.3819660112501,597.7566793893129)">
+<path id="ProcessOnPath1063" d="M0 0H167.0V30.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-83.5,0.0)"/>
+<text id="ProcessOnText1064" fill="#000000" font-size="12" x="-83.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Create Channel:</text>
+<text id="ProcessOnText1065" fill="#000000" font-size="12" x="-83.5" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Receive: DBot pool address</text>
+</g>
+</g>
+<g id="ProcessOnG1066">
+<path id="ProcessOnPath1067" d="M202.0 704.7566793893129L307.5 704.7566793893129L307.5 704.7566793893129L397.7639320225002 704.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1068)"/>
+<g id="ProcessOnG1070" transform="matrix(1.0,0.0,0.0,1.0,299.88196601125014,659.7566793893129)">
+<path id="ProcessOnPath1071" d="M0 0H84.0V90.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-42.0,0.0)"/>
+<text id="ProcessOnText1072" fill="#000000" font-size="12" x="-42.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Call AI:</text>
+<text id="ProcessOnText1073" fill="#000000" font-size="12" x="-42.0" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">request: ...,</text>
+<text id="ProcessOnText1074" fill="#000000" font-size="12" x="-42.0" y="42.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">channel_id: ...,</text>
+<text id="ProcessOnText1075" fill="#000000" font-size="12" x="-42.0" y="57.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">nonce: ...,</text>
+<text id="ProcessOnText1076" fill="#000000" font-size="12" x="-42.0" y="72.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">balance: ...,</text>
+<text id="ProcessOnText1077" fill="#000000" font-size="12" x="-42.0" y="87.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">sigature</text>
+</g>
+</g>
+<g id="ProcessOnG1078">
+<path id="ProcessOnPath1079" d="M658.0 912.7566793893129L536.5 912.7566793893129L536.5 912.7566793893129L430.2360679774998 912.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1080)"/>
+<g id="ProcessOnG1082" transform="matrix(1.0,0.0,0.0,1.0,544.1180339887499,905.2566793893129)">
+<path id="ProcessOnPath1083" d="M0 0H80.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-40.0,0.0)"/>
+<text id="ProcessOnText1084" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">AI call Result</text>
+</g>
+</g>
+<g id="ProcessOnG1085" transform="matrix(1.0,0.0,0.0,1.0,182.58465397512435,234.0)" opacity="1.0">
+<path id="ProcessOnPath1086" d="M12.274185068349102 5.875C12.274185068349102 -1.9583333333333333 24.548370136698203 -1.9583333333333333 24.548370136698203 5.875C24.548370136698203 13.708333333333334 12.274185068349102 13.708333333333334 12.274185068349102 5.875M18.411277602523654 11.75L18.411277602523654 35.25M18.411277602523654 35.25L3.0685462670872754 47.0M18.411277602523654 35.25L33.75400893796003 47.0M0.0 23.5L36.82255520504731 23.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<path id="ProcessOnPath1087" d="M0.0 0.0L36.82255520504731 0.0L36.82255520504731 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+</g>
+<g id="ProcessOnG1088" transform="matrix(1.0,0.0,0.0,1.0,736.0,216.0)" opacity="1.0">
+<path id="ProcessOnPath1089" d="M0.0 0.0L102.0 0.0L102.0 28.0L0.0 28.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1090" transform="matrix(1.0,0.0,0.0,1.0,0.0,5.875)">
+<text id="ProcessOnText1091" fill="#000000" font-size="13" x="50.0" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">On Chain</text>
+</g>
+</g>
+<g id="ProcessOnG1092" transform="matrix(1.0,0.0,0.0,1.0,430.0,213.0)" opacity="1.0">
+<path id="ProcessOnPath1093" d="M0.0 0.0L102.0 0.0L102.0 28.0L0.0 28.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1094" transform="matrix(1.0,0.0,0.0,1.0,0.0,5.875)">
+<text id="ProcessOnText1095" fill="#000000" font-size="13" x="50.0" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Off Chain</text>
+</g>
+</g>
+<g id="ProcessOnG1096">
+<path id="ProcessOnPath1097" d="M659.0 839.5782442748091L538.0 839.5782442748091L538.0 839.5782442748091L432.2360679774998 839.5782442748091" stroke="#cc0000" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1098)"/>
+<g id="ProcessOnG1100" transform="matrix(1.0,0.0,0.0,1.0,545.6180339887499,824.5782442748091)">
+<path id="ProcessOnPath1101" d="M0 0H165.0V30.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-82.5,0.0)"/>
+<text id="ProcessOnText1102" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">Return not_enough_money</text>
+<text id="ProcessOnText1103" fill="#000000" font-size="12" x="0.0" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">if insufficient balance</text>
+</g>
+</g>
+<g id="ProcessOnG1104">
+<path id="ProcessOnPath1105" d="M415.0 958.7566793893129L608.5 958.7566793893129L608.5 958.7566793893129L786.7639320225002 958.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1106)"/>
+<g id="ProcessOnG1108" transform="matrix(1.0,0.0,0.0,1.0,600.8819660112501,951.2566793893129)">
+<path id="ProcessOnPath1109" d="M0 0H76.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-38.0,0.0)"/>
+<text id="ProcessOnText1110" fill="#000000" font-size="12" x="-38.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Top Up</text>
+</g>
+</g>
+<g id="ProcessOnG1111">
+<path id="ProcessOnPath1112" d="M526.0 1031.756679389313L664.0 1031.756679389313L664.0 1031.756679389313L786.7639320225002 1031.756679389313" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1113)"/>
+<g id="ProcessOnG1115" transform="matrix(1.0,0.0,0.0,1.0,656.3819660112501,1016.7566793893129)">
+<path id="ProcessOnPath1116" d="M0 0H105.0V30.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-52.5,0.0)"/>
+<text id="ProcessOnText1117" fill="#000000" font-size="12" x="-52.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Withdraw:</text>
+<text id="ProcessOnText1118" fill="#000000" font-size="12" x="-52.5" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">sender's sigature</text>
+</g>
+</g>
+<g id="ProcessOnG1119" transform="matrix(1.0,0.0,0.0,1.0,743.0,187.0)" opacity="1.0">
+<path id="ProcessOnPath1120" d="M0.0 0.0L70.0 0.0L70.0 20.0L0.0 20.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1121" transform="matrix(1.0,0.0,0.0,1.0,0.0,1.875)">
+<text id="ProcessOnText1122" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">ATN</text>
+</g>
+</g>
+<g id="ProcessOnG1123">
+<path id="ProcessOnPath1124" d="M414.0 1246.0L609.5 1246.0L609.5 1246.0L789.7639320225002 1246.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1125)"/>
+<g id="ProcessOnG1127" transform="matrix(1.0,0.0,0.0,1.0,601.8819660112501,1238.5)">
+<path id="ProcessOnPath1128" d="M0 0H196.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-98.0,0.0)"/>
+<text id="ProcessOnText1129" fill="#000000" font-size="12" x="-98.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Cooperative Close Channel</text>
+</g>
+</g>
+<g id="ProcessOnG1130">
+<path id="ProcessOnPath1131" d="M930.0 410.756679389313L967.5 410.756679389313L967.5 410.756679389313L989.7639320225002 410.756679389313" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1132)"/>
+<g id="ProcessOnG1134" transform="matrix(1.0,0.0,0.0,1.0,959.8819660112501,403.256679389313)">
+<path id="ProcessOnPath1135" d="M0 0H42.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-21.0,0.0)"/>
+<text id="ProcessOnText1136" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">deploy</text>
+</g>
+</g>
+<g id="ProcessOnG1137">
+<path id="ProcessOnPath1138" d="M929.233955556881 446.64278760968654L959.233955556881 446.64278760968654L959.4019237886466 475.5L944.6379917661465 475.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1139)"/>
+<g id="ProcessOnG1141" transform="matrix(1.0,0.0,0.0,1.0,951.6999056840139,438.51778760968654)">
+<path id="ProcessOnPath1142" d="M0 0H100.0V16.25H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-50.0,0.0)"/>
+<text id="ProcessOnText1143" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">set pool address</text>
+</g>
+</g>
+<g id="ProcessOnG1144" transform="matrix(1.0,0.0,0.0,1.0,978.5853786084194,207.0)" opacity="1.0">
+<path id="ProcessOnPath1145" d="M0.0 0.0L233.41462139158057 0.0L233.41462139158057 70.0L0.0 70.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1146" transform="matrix(1.0,0.0,0.0,1.0,0.0,-5.625)">
+<text id="ProcessOnText1147" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">State:</text>
+<text id="ProcessOnText1148" fill="#000000" font-size="13" x="0.0" y="29.575" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">DBot_ID:</text>
+<text id="ProcessOnText1149" fill="#000000" font-size="13" x="0.0" y="45.825" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">    Host IP: x.x.x.x,</text>
+<text id="ProcessOnText1150" fill="#000000" font-size="13" x="0.0" y="62.075" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">    DBotpool contract address: x...x</text>
+<text id="ProcessOnText1151" fill="#000000" font-size="13" x="0.0" y="78.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">...</text>
+</g>
+</g>
+<g id="ProcessOnG1152" transform="matrix(1.0,0.0,0.0,1.0,1126.0,221.0)" opacity="1.0">
+<path id="ProcessOnPath1153" d="M65.1603260869565 30.0L65.1603260869565 1258.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1154" d="M0.0 0.0L130.320652173913 0.0L130.320652173913 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffcc"/>
+<g id="ProcessOnG1155" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1156" fill="#000000" font-size="13" x="54.1603260869565" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Channel Mgr</text>
+<text id="ProcessOnText1157" fill="#000000" font-size="13" x="54.1603260869565" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Contract</text>
+</g>
+</g>
+<g id="ProcessOnG1158" transform="matrix(1.0,0.0,0.0,1.0,1063.5853786084194,430.0)" opacity="1.0">
+<path id="ProcessOnPath1159" d="M0.0 0.0L129.41462139158057 0.0L129.41462139158057 59.0L0.0 59.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1160" transform="matrix(1.0,0.0,0.0,1.0,0.0,-3.0)">
+<text id="ProcessOnText1161" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">State:</text>
+<text id="ProcessOnText1162" fill="#000000" font-size="13" x="0.0" y="29.575" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">Owner: DBot Owner</text>
+<text id="ProcessOnText1163" fill="#000000" font-size="13" x="0.0" y="45.825" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">Pool Balance: xx,</text>
+<text id="ProcessOnText1164" fill="#000000" font-size="13" x="0.0" y="62.075" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="start" size="13">Fee Percent: x%</text>
+</g>
+</g>
+<g id="ProcessOnG1165">
+<path id="ProcessOnPath1166" d="M415.233955556881 754.6427876096866L445.233955556881 754.6427876096866L445.4019237886466 783.5L430.6379917661464 783.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1167)"/>
+<g id="ProcessOnG1169" transform="matrix(1.0,0.0,0.0,1.0,437.69990568401397,746.5177876096866)">
+<path id="ProcessOnPath1170" d="M0 0H184.0V16.25H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-92.0,0.0)"/>
+<text id="ProcessOnText1171" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">save sigature (support export)</text>
+</g>
+</g>
+<g id="ProcessOnG1172">
+<path id="ProcessOnPath1173" d="M1058.0 1047.0L1122.5 1047.0L1122.5 1047.0L1171.7639320225003 1047.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1174)"/>
+<g id="ProcessOnG1176" transform="matrix(1.0,0.0,0.0,1.0,1114.8819660112501,1039.5)">
+<path id="ProcessOnPath1177" d="M0 0H60.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-30.0,0.0)"/>
+<text id="ProcessOnText1178" fill="#000000" font-size="12" x="-30.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Withdraw</text>
+</g>
+</g>
+<g id="ProcessOnG1179">
+<path id="ProcessOnPath1180" d="M1060.3602331639872 1098.6427876096866L1090.3602331639872 1098.6427876096866L1090.528201395753 1127.5L1075.7642693732528 1127.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1181)"/>
+<g id="ProcessOnG1183" transform="matrix(1.0,0.0,0.0,1.0,1082.8261832911203,1090.5177876096866)">
+<path id="ProcessOnPath1184" d="M0 0H50.0V16.25H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-25.0,0.0)"/>
+<text id="ProcessOnText1185" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">pool fee</text>
+</g>
+</g>
+<g id="ProcessOnG1186">
+<path id="ProcessOnPath1187" d="M1190.0 345.36677549233343L924.5 345.36677549233343L924.5 345.36677549233343L659.0 345.36677549233343" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+<g id="ProcessOnG1188" transform="matrix(1.0,0.0,0.0,1.0,924.5,337.86677549233343)">
+<path id="ProcessOnPath1189" d="M0 0H28.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-14.0,0.0)"/>
+<text id="ProcessOnText1190" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">Sync</text>
+</g>
+</g>
+<g id="ProcessOnG1191">
+<path id="ProcessOnPath1192" d="M1187.0 667.0L924.0 667.0L924.0 667.0L676.2360679774998 667.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1193)"/>
+<g id="ProcessOnG1195" transform="matrix(1.0,0.0,0.0,1.0,931.6180339887499,659.5)">
+<path id="ProcessOnPath1196" d="M0 0H132.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-66.0,0.0)"/>
+<text id="ProcessOnText1197" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">New Channel Created</text>
+</g>
+</g>
+<g id="ProcessOnG1198">
+<path id="ProcessOnPath1199" d="M1186.0 985.0L923.0 985.0L923.0 985.0L675.2360679774998 985.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1200)"/>
+<g id="ProcessOnG1202" transform="matrix(1.0,0.0,0.0,1.0,930.6180339887499,977.5)">
+<path id="ProcessOnPath1203" d="M0 0H160.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-80.0,0.0)"/>
+<text id="ProcessOnText1204" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">Channel Balance Topuped</text>
+</g>
+</g>
+<g id="ProcessOnG1205">
+<path id="ProcessOnPath1206" d="M1188.0 1454.0L924.5 1454.0L924.5 1454.0L676.2360679774998 1454.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1207)"/>
+<g id="ProcessOnG1209" transform="matrix(1.0,0.0,0.0,1.0,932.1180339887499,1446.5)">
+<path id="ProcessOnPath1210" d="M0 0H95.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-47.5,0.0)"/>
+<text id="ProcessOnText1211" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">Channel Closed</text>
+</g>
+</g>
+<g id="ProcessOnG1212">
+<path id="ProcessOnPath1213" d="M527.0 385.0L665.5 385.0L665.5 385.0L788.7639320225002 385.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1214)"/>
+<g id="ProcessOnG1216" transform="matrix(1.0,0.0,0.0,1.0,657.8819660112501,377.5)">
+<path id="ProcessOnPath1217" d="M0 0H116.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-58.0,0.0)"/>
+<text id="ProcessOnText1218" fill="#000000" font-size="12" x="-58.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Register DBot</text>
+</g>
+</g>
+<g id="ProcessOnG1219" transform="matrix(1.0,0.0,0.0,1.0,476.5896739130435,294.10653460562867)" opacity="1.0">
+<path id="ProcessOnPath1220" d="M48.99593157764801 30.0L48.99593157764801 1184.893465394371" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1221" d="M0.0 0.0L97.99186315529602 0.0L97.99186315529602 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1222" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1223" fill="#000000" font-size="13" x="37.99593157764801" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">DBot Wallet</text>
+<text id="ProcessOnText1224" fill="#000000" font-size="13" x="37.99593157764801" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">(Client)</text>
+</g>
+</g>
+<g id="ProcessOnG1225">
+<path id="ProcessOnPath1226" d="M306.0 377.0L415.5 377.0L415.5 377.0L509.7639320225002 377.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1227)"/>
+<g id="ProcessOnG1229" transform="matrix(1.0,0.0,0.0,1.0,407.88196601125014,369.5)">
+<path id="ProcessOnPath1230" d="M0 0H85.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-42.5,0.0)"/>
+<text id="ProcessOnText1231" fill="#000000" font-size="12" x="-42.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Register DBot</text>
+</g>
+</g>
+<g id="ProcessOnG1232">
+<path id="ProcessOnPath1233" d="M202.0 537.7566793893129L306.5 537.7566793893129L306.5 537.7566793893129L395.7639320225002 537.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1234)"/>
+<g id="ProcessOnG1236" transform="matrix(1.0,0.0,0.0,1.0,298.88196601125014,522.7566793893129)">
+<path id="ProcessOnPath1237" d="M0 0H96.0V30.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-48.0,0.0)"/>
+<text id="ProcessOnText1238" fill="#000000" font-size="12" x="-48.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Create Channel:</text>
+<text id="ProcessOnText1239" fill="#000000" font-size="12" x="-48.0" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">DBot_ID</text>
+</g>
+</g>
+<g id="ProcessOnG1240">
+<path id="ProcessOnPath1241" d="M806.0 612.7566793893129L996.5 612.7566793893129L996.5 612.7566793893129L1171.7639320225003 612.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1242)"/>
+</g>
+<g id="ProcessOnG1244">
+<path id="ProcessOnPath1245" d="M657.0 504.0L591.5 504.0L591.5 504.0L541.2360679774998 504.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1246)"/>
+</g>
+<g id="ProcessOnG1248">
+<path id="ProcessOnPath1249" d="M658.0 667.0L537.5 667.0L537.5 667.0L432.2360679774998 667.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1250)"/>
+</g>
+<g id="ProcessOnG1252">
+<path id="ProcessOnPath1253" d="M415.0 726.7566793893129L535.0 726.7566793893129L535.0 726.7566793893129L639.7639320225002 726.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1254)"/>
+<g id="ProcessOnG1256" transform="matrix(1.0,0.0,0.0,1.0,527.3819660112501,719.2566793893129)">
+<path id="ProcessOnPath1257" d="M0 0H183.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-91.5,0.0)"/>
+<text id="ProcessOnText1258" fill="#000000" font-size="12" x="-91.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Call AI with payment sigature</text>
+</g>
+</g>
+<g id="ProcessOnG1259">
+<path id="ProcessOnPath1260" d="M659.3602331639873 750.6427876096866L689.3602331639873 750.6427876096866L689.528201395753 779.5L674.7642693732529 779.5" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1261)"/>
+<g id="ProcessOnG1263" transform="matrix(1.0,0.0,0.0,1.0,681.8261832911202,742.5177876096866)">
+<path id="ProcessOnPath1264" d="M0 0H80.0V16.25H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-40.0,0.0)"/>
+<text id="ProcessOnText1265" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">save sigature</text>
+</g>
+</g>
+<g id="ProcessOnG1266">
+<path id="ProcessOnPath1267" d="M805.0 958.7566793893129L996.0 958.7566793893129L996.0 958.7566793893129L1171.7639320225003 958.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1268)"/>
+</g>
+<g id="ProcessOnG1270">
+<path id="ProcessOnPath1271" d="M658.0 984.0L536.0 984.0L536.0 984.0L429.2360679774998 984.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1272)"/>
+</g>
+<g id="ProcessOnG1274">
+<path id="ProcessOnPath1275" d="M201.0 948.7566793893129L307.0 948.7566793893129L307.0 948.7566793893129L397.7639320225002 948.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1276)"/>
+<g id="ProcessOnG1278" transform="matrix(1.0,0.0,0.0,1.0,299.38196601125014,941.2566793893129)">
+<path id="ProcessOnPath1279" d="M0 0H45.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-22.5,0.0)"/>
+<text id="ProcessOnText1280" fill="#000000" font-size="12" x="-22.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Top Up</text>
+</g>
+</g>
+<g id="ProcessOnG1281">
+<path id="ProcessOnPath1282" d="M307.0 1021.7566793893129L416.0 1021.7566793893129L416.0 1021.7566793893129L509.7639320225002 1021.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1283)"/>
+<g id="ProcessOnG1285" transform="matrix(1.0,0.0,0.0,1.0,408.38196601125014,1014.2566793893129)">
+<path id="ProcessOnPath1286" d="M0 0H60.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-30.0,0.0)"/>
+<text id="ProcessOnText1287" fill="#000000" font-size="12" x="-30.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Withdraw</text>
+</g>
+</g>
+<g id="ProcessOnG1288">
+<path id="ProcessOnPath1289" d="M806.0 1031.756679389313L931.5 1031.756679389313L931.5 1031.756679389313L1041.7639320225003 1031.756679389313" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1290)"/>
+</g>
+<g id="ProcessOnG1292">
+<path id="ProcessOnPath1293" d="M203.0 1224.0L308.0 1224.0L308.0 1224.0L397.7639320225002 1224.0" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1294)"/>
+<g id="ProcessOnG1296" transform="matrix(1.0,0.0,0.0,1.0,300.38196601125014,1209.0)">
+<path id="ProcessOnPath1297" d="M0 0H161.0V30.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-80.5,0.0)"/>
+<text id="ProcessOnText1298" fill="#000000" font-size="12" x="-80.5" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">Close Channel</text>
+<text id="ProcessOnText1299" fill="#000000" font-size="12" x="-80.5" y="27.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">(dbot owner's signatured)</text>
+</g>
+</g>
+<g id="ProcessOnG1300">
+<path id="ProcessOnPath1301" d="M806.0 1245.756679389313L997.5 1245.756679389313L997.5 1245.756679389313L1173.7639320225003 1245.756679389313" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1302)"/>
+</g>
+<g id="ProcessOnG1304">
+<path id="ProcessOnPath1305" d="M658.0 1454.0L537.5 1454.0L537.5 1454.0L432.2360679774998 1454.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1306)"/>
+</g>
+<g id="ProcessOnG1308">
+<path id="ProcessOnPath1309" d="M1188.0 1187.0L924.0 1187.0L924.0 1187.0L675.2360679774998 1187.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1310)"/>
+<g id="ProcessOnG1312" transform="matrix(1.0,0.0,0.0,1.0,931.6180339887499,1179.5)">
+<path id="ProcessOnPath1313" d="M0 0H114.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-57.0,0.0)"/>
+<text id="ProcessOnText1314" fill="#000000" font-size="12" x="0.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="12">Withdraw finished</text>
+</g>
+</g>
+<g id="ProcessOnG1315">
+<path id="ProcessOnPath1316" d="M658.0 1187.0L592.5 1187.0L592.5 1187.0L542.2360679774998 1187.0" stroke="#cc6600" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1317)"/>
+</g>
+<g id="ProcessOnG1319" transform="matrix(1.0,0.0,0.0,1.0,603.0,800.0)" opacity="1.0">
+<path id="ProcessOnPath1320" d="M0.0 4.0Q0.0 0.0 4.0 0.0L106.0 0.0Q110.0 0.0 110.0 4.0L110.0 16.0Q110.0 20.0 106.0 20.0L4.0 20.0Q0.0 20.0 0.0 16.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1321" transform="matrix(1.0,0.0,0.0,1.0,10.0,1.875)">
+<text id="ProcessOnText1322" fill="#000000" font-size="13" x="44.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">balance check</text>
+</g>
+</g>
+<g id="ProcessOnG1323" transform="matrix(1.0,0.0,0.0,1.0,1123.8396739130435,1330.0)" opacity="1.0">
+<path id="ProcessOnPath1324" d="M0.0 4.0Q0.0 0.0 4.0 0.0L128.320652173913 0.0Q132.320652173913 0.0 132.320652173913 4.0L132.320652173913 16.0Q132.320652173913 20.0 128.320652173913 20.0L4.0 20.0Q0.0 20.0 0.0 16.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1325" transform="matrix(1.0,0.0,0.0,1.0,10.0,1.875)">
+<text id="ProcessOnText1326" fill="#000000" font-size="13" x="55.1603260869565" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">distribute balance</text>
+</g>
+</g>
+<g id="ProcessOnG1327">
+<path id="ProcessOnPath1328" d="M416.0 563.7566793893129L611.0 563.7566793893129L611.0 563.7566793893129L790.7639320225002 563.7566793893129" stroke="#000000" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none" marker-end="url(#ProcessOnMarker1329)"/>
+<g id="ProcessOnG1331" transform="matrix(1.0,0.0,0.0,1.0,603.3819660112501,556.2566793893129)">
+<path id="ProcessOnPath1332" d="M0 0H224.0V15.0H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-112.0,0.0)"/>
+<text id="ProcessOnText1333" fill="#000000" font-size="12" x="-112.0" y="12.3" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="start" size="12">RPC: Get DBot pool contract address</text>
+</g>
+</g>
+<g id="ProcessOnG1334" transform="matrix(1.0,0.0,0.0,1.0,1011.0,183.0)" opacity="1.0">
+<path id="ProcessOnPath1335" d="M0.0 0.0L168.58537860841943 0.0L168.58537860841943 20.0L0.0 20.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1336" transform="matrix(1.0,0.0,0.0,1.0,0.0,1.875)">
+<text id="ProcessOnText1337" fill="#000000" font-size="13" x="83.29268930420972" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Build In Smart Contract</text>
+</g>
+</g>
+<g id="ProcessOnG1338" transform="matrix(1.0,0.0,0.0,1.0,1125.0,1063.0)" opacity="1.0">
+<path id="ProcessOnPath1339" d="M0.0 4.0Q0.0 0.0 4.0 0.0L128.320652173913 0.0Q132.320652173913 0.0 132.320652173913 4.0L132.320652173913 16.0Q132.320652173913 20.0 128.320652173913 20.0L4.0 20.0Q0.0 20.0 0.0 16.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1340" transform="matrix(1.0,0.0,0.0,1.0,10.0,1.875)">
+<text id="ProcessOnText1341" fill="#000000" font-size="13" x="55.1603260869565" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">transfer balance</text>
+</g>
+</g>
+<g id="ProcessOnG1342" transform="matrix(1.0,0.0,0.0,1.0,980.286691177319,1148.0)" opacity="1.0">
+<path id="ProcessOnPath1343" d="M0.0 4.0Q0.0 0.0 4.0 0.0L152.320652173913 0.0Q156.320652173913 0.0 156.320652173913 4.0L156.320652173913 17.0Q156.320652173913 21.0 152.320652173913 21.0L4.0 21.0Q0.0 21.0 0.0 17.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1344" transform="matrix(1.0,0.0,0.0,1.0,10.0,2.375)">
+<text id="ProcessOnText1345" fill="#000000" font-size="13" x="67.1603260869565" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">transfer left balance</text>
+</g>
+</g>
+<g id="ProcessOnG1346">
+<path id="ProcessOnPath1347" d="M1124.0 1071.756679389313L1092.5 1071.756679389313L1092.5 1071.756679389313L1076.2360679774997 1071.756679389313" stroke="#66cc00" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1348)"/>
+</g>
+<g id="ProcessOnG1350">
+<path id="ProcessOnPath1351" d="M979.0 1158.756679389313L753.0 1158.756679389313L753.0 1158.756679389313L542.2360679774998 1158.756679389313" stroke="#66cc00" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1352)"/>
+</g>
+<g id="ProcessOnG1354">
+<path id="ProcessOnPath1355" d="M1123.0 1346.756679389313L1091.0 1346.756679389313L1091.0 1346.756679389313L1074.2360679774997 1346.756679389313" stroke="#66cc00" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1356)"/>
+</g>
+<g id="ProcessOnG1358">
+<path id="ProcessOnPath1359" d="M1123.0 1332.756679389313L769.5 1332.756679389313L769.5 1332.756679389313L431.2360679774998 1332.756679389313" stroke="#66cc00" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1360)"/>
+</g>
+<g id="ProcessOnG1362" transform="matrix(1.0,0.0,0.0,1.0,603.0,866.0)" opacity="1.0">
+<path id="ProcessOnPath1363" d="M0.0 4.0Q0.0 0.0 4.0 0.0L106.0 0.0Q110.0 0.0 110.0 4.0L110.0 16.0Q110.0 20.0 106.0 20.0L4.0 20.0Q0.0 20.0 0.0 16.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1364" transform="matrix(1.0,0.0,0.0,1.0,10.0,1.875)">
+<text id="ProcessOnText1365" fill="#000000" font-size="13" x="44.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Proxy AI Call</text>
+</g>
+</g>
+<g id="ProcessOnG1366" transform="matrix(1.0,0.0,0.0,1.0,362.59781075774754,294.10653460562867)" opacity="1.0">
+<path id="ProcessOnPath1367" d="M51.20109462112623 30.0L51.20109462112623 1184.893465394371" stroke="#000000" stroke-width="2.0" stroke-dasharray="2.0 3.0" opacity="1.0" fill="none"/>
+<path id="ProcessOnPath1368" d="M0.0 0.0L102.40218924225246 0.0L102.40218924225246 30.0L0.0 30.0Z" stroke="#000000" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1369" transform="matrix(1.0,0.0,0.0,1.0,10.0,-1.25)">
+<text id="ProcessOnText1370" fill="#000000" font-size="13" x="40.20109462112623" y="13.325" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">User Wallet</text>
+<text id="ProcessOnText1371" fill="#000000" font-size="13" x="40.20109462112623" y="29.575" font-family="微软雅黑" font-weight="bold" font-style="normal" text-decoration="none" text-anchor="middle" size="13">(Client)</text>
+</g>
+</g>
+<g id="ProcessOnG1372" transform="matrix(1.0,0.0,0.0,1.0,1111.3477632728861,1263.75)" opacity="1.0">
+<path id="ProcessOnPath1373" d="M0.0 4.0Q0.0 0.0 4.0 0.0L155.62512562814072 0.0Q159.62512562814072 0.0 159.62512562814072 4.0L159.62512562814072 45.5Q159.62512562814072 49.5 155.62512562814072 49.5L4.0 49.5Q0.0 49.5 0.0 45.5Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1374" transform="matrix(1.0,0.0,0.0,1.0,10.0,0.375)">
+<text id="ProcessOnText1375" fill="#000000" font-size="13" x="68.81256281407036" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">wait for receiver's</text>
+<text id="ProcessOnText1376" fill="#000000" font-size="13" x="68.81256281407036" y="29.575" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">cooperate or </text>
+<text id="ProcessOnText1377" fill="#000000" font-size="13" x="68.81256281407036" y="45.825" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">challenge</text>
+</g>
+</g>
+<g id="ProcessOnG1378">
+<path id="ProcessOnPath1379" d="M1056.7148972055636 1368.3213938048434L1086.7148972055636 1368.3213938048434L1086.8828654373294 1397.1786061951566L1072.1189334148291 1397.1786061951566" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1380)"/>
+<g id="ProcessOnG1382" transform="matrix(1.0,0.0,0.0,1.0,1079.1808473326967,1360.1963938048434)">
+<path id="ProcessOnPath1383" d="M0 0H50.0V16.25H0Z" fill="#fff" transform="matrix(1.0,0.0,0.0,1.0,-25.0,0.0)"/>
+<text id="ProcessOnText1384" fill="#000000" font-size="13" x="0.0" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">pool fee</text>
+</g>
+</g>
+<g id="ProcessOnG1385" transform="matrix(1.0,0.0,0.0,1.0,980.286691177319,1417.6786061951566)" opacity="1.0">
+<path id="ProcessOnPath1386" d="M0.0 4.0Q0.0 0.0 4.0 0.0L152.320652173913 0.0Q156.320652173913 0.0 156.320652173913 4.0L156.320652173913 17.0Q156.320652173913 21.0 152.320652173913 21.0L4.0 21.0Q0.0 21.0 0.0 17.0Z" stroke="#323232" stroke-width="2.0" stroke-dasharray="none" opacity="1.0" fill="#ffffff"/>
+<g id="ProcessOnG1387" transform="matrix(1.0,0.0,0.0,1.0,10.0,2.375)">
+<text id="ProcessOnText1388" fill="#000000" font-size="13" x="67.1603260869565" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">transfer rest balance</text>
+</g>
+</g>
+<g id="ProcessOnG1389">
+<path id="ProcessOnPath1390" d="M979.6203431100007 1430.4352855844695L756.2721789478087 1430.4352855844695L756.2721789478087 1430.4352855844695L548.1600827631165 1430.4352855844695" stroke="#66cc00" stroke-width="2.0" stroke-dasharray="none" fill="none" marker-end="url(#ProcessOnMarker1391)"/>
+</g>
+<g id="ProcessOnG1393">
+<path id="ProcessOnPath1394" d="M1292.0 522.3667754923334L668.5 522.3667754923334L668.5 522.3667754923334L45.0 522.3667754923334" stroke="#a1a1a1" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+</g>
+<g id="ProcessOnG1395">
+<path id="ProcessOnPath1396" d="M1289.0 679.3667754923334L665.5 679.3667754923334L665.5 679.3667754923334L42.0 679.3667754923334" stroke="#a1a1a1" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+</g>
+<g id="ProcessOnG1397">
+<path id="ProcessOnPath1398" d="M1292.0 1000.3667754923335L668.5 1000.3667754923335L668.5 1000.3667754923335L45.0 1000.3667754923335" stroke="#a1a1a1" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+</g>
+<g id="ProcessOnG1399">
+<path id="ProcessOnPath1400" d="M1293.0 1205.3667754923335L669.5 1205.3667754923335L669.5 1205.3667754923335L46.0 1205.3667754923335" stroke="#a1a1a1" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+</g>
+<g id="ProcessOnG1401" transform="matrix(1.0,0.0,0.0,1.0,55.0,390.0)" opacity="1.0">
+<path id="ProcessOnPath1402" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1403" transform="matrix(1.0,0.0,0.0,1.0,0.0,15.375)">
+<text id="ProcessOnText1404" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Rgister DBot</text>
+</g>
+</g>
+<g id="ProcessOnG1405" transform="matrix(1.0,0.0,0.0,1.0,55.0,580.0)" opacity="1.0">
+<path id="ProcessOnPath1406" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1407" transform="matrix(1.0,0.0,0.0,1.0,0.0,7.25)">
+<text id="ProcessOnText1408" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Create </text>
+<text id="ProcessOnText1409" fill="#000000" font-size="13" x="38.5" y="29.575" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Channel</text>
+</g>
+</g>
+<g id="ProcessOnG1410" transform="matrix(1.0,0.0,0.0,1.0,55.0,765.0)" opacity="1.0">
+<path id="ProcessOnPath1411" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1412" transform="matrix(1.0,0.0,0.0,1.0,0.0,15.375)">
+<text id="ProcessOnText1413" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Call AI</text>
+</g>
+</g>
+<g id="ProcessOnG1414" transform="matrix(1.0,0.0,0.0,1.0,65.0,1088.0)" opacity="1.0">
+<path id="ProcessOnPath1415" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1416" transform="matrix(1.0,0.0,0.0,1.0,0.0,15.375)">
+<text id="ProcessOnText1417" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">With Draw</text>
+</g>
+</g>
+<g id="ProcessOnG1418" transform="matrix(1.0,0.0,0.0,1.0,55.0,1309.0)" opacity="1.0">
+<path id="ProcessOnPath1419" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1420" transform="matrix(1.0,0.0,0.0,1.0,0.0,7.25)">
+<text id="ProcessOnText1421" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Close </text>
+<text id="ProcessOnText1422" fill="#000000" font-size="13" x="38.5" y="29.575" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Channel</text>
+</g>
+</g>
+<g id="ProcessOnG1423">
+<path id="ProcessOnPath1424" d="M1289.0 933.3667754923335L665.5 933.3667754923335L665.5 933.3667754923335L42.0 933.3667754923335" stroke="#a1a1a1" stroke-width="2.0" stroke-dasharray="10.0 4.0" fill="none"/>
+</g>
+<g id="ProcessOnG1425" transform="matrix(1.0,0.0,0.0,1.0,54.0,940.0)" opacity="1.0">
+<path id="ProcessOnPath1426" d="M0.0 0.0L79.0 0.0L79.0 47.0L0.0 47.0Z" stroke="none" stroke-width="0.0" stroke-dasharray="none" opacity="1.0" fill="none"/>
+<g id="ProcessOnG1427" transform="matrix(1.0,0.0,0.0,1.0,0.0,15.375)">
+<text id="ProcessOnText1428" fill="#000000" font-size="13" x="38.5" y="13.325" font-family="微软雅黑" font-weight="normal" font-style="normal" text-decoration="none" text-anchor="middle" size="13">Top Up</text>
+</g>
+</g>
+</g>
+</g>
+</svg>
