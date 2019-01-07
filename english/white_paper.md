@@ -124,6 +124,16 @@ Proofs of payment will be onchain to add more transparency.
 
 The Dbot server is a key component of ATN ecosystem. You can find a detailed documentation [here](https://github.com/ATNIO/dbot-server)
 
+To summarize quickly its key properties:
+* should be replicate to avoid single point of failure
+* support multi-region replicate
+* hide the complexity to the end user
+* detailled economic report to the provider
+* Infrastructure metrics visualisation
+* Infrastructure management tool (deployment, load balancing)
+
+![](img/user-service-interaction.png)
+
 
 ### Economy and incentive of ATN chain
 
