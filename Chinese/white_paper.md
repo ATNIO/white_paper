@@ -54,12 +54,25 @@ ERC20 代币标准描述了以太坊代币合约必须实现和遵循的方法�
 虽然ERC223是一个还在修订中的标准，且目前大部分钱包和基础设置还没有完全支持ERC223，但是因为其给代币模型带来的诸多优点，随着时间的推进，会有越来越多的钱包和基础设施支持这个标准，目前雷电网络项目已经支持ERC223。
 
 ## 服务提供者和消费者的交互
-### 人工智能和API市场
-The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
+### AI和API市场
 
-The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
-Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
+AI市场为消费者提供了诸多不同类别的服务。最新的测试版本已经可以在这里[这里](https://market-test.atnio.net/)访问体验，以及一个帮助快速上手的 演示视频[这里](https://www.youtube.com/watch?v=gsxSz9jfMd8)。
+
+API市场是一个开放的市场平台，会为市场中注册的DBot自动生成相应的API描述页。任何人都可以在这个API市场里部署自己的市场，即“摊位”，并且这样的自由部署的子市场可以是完全开放，即任何人都能访问，也可以是封闭的，即只有被许可的消费者才可以访问。
+
 ### 控制层
+我们定义**公有服务和私有服务**如下：
+**公有服务**是一个公开注册登记，且任何人都能看到的服务。
+**私有服务**是除了公有服务之外的其他服务。
+
+我们定义**开放服务和许可服务**如下：
+**开放服务**是消费者不需要成为该服务的白名单成员即可访问的服务。
+**许可服务**是消费者需要成为该服务的白名单成员才能访问的服务。
+
+一个服务可以支持**ATN**或者**定制的支付方式**，后者表示该服务的提供者支持他自定义的支付方式，例如在ATN生态里接入其他的代币形式。
+
+这些不同层面的控制方式的组合，为服务提供者和消费者在使用ATN生态服务时提供了极大的自由度，包括从完全公开的市场里的开放服务，到私有市场里的许可服务和定制化的支付方式。
+
 ### 支付通道
 
 ## 经济和激励系统
