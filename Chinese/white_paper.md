@@ -286,7 +286,7 @@ ATN提供SDK包，用于pre-trained模型的发布和版本保护以及模型的
 a. 两或更多方参与基于他们各自私密输入的计算。
 b. 而且他们都不想其他方知道自己的输入信息。
 
-## 角色构成 
+## 角色和组件构成 
 - API服务提供者
 指API服务的开发和提供者。在ATN生态里，我们主要强调的是AI API的服务提供方。他们将可以通过ATN的AI计算和服务开放平台接入ATN生态，提供服务并获取代币收益。
 
@@ -294,19 +294,49 @@ b. 而且他们都不想其他方知道自己的输入信息。
 通过恰当的解析ATN中注册的AI服务接口和数据，任何开发者都可以开发ATN的AI服务浏览器，便于AI服务使用者查询和使用AI服务。AI消费者有可能是某个智能合约，也有可能是另外一个服务或程序，需要支付ATN代币才能使用AI服务，ATN系统受到代币费用后，将会根据服务表现进行自动分账。
 
 -DBot服务者
-指在ATN平台上开发并发布DBot合约并接入经过授权的AI服务的第三方开发者，DBot合约更像是AI服务和ATN间的一个适配器。 DBot合约提供者为开发并部署这些合约收取恰当的手续费。DBot合约提供者有可能和AI服务提供商重合，但不是必须，也有可能是经过AI服务提供商授权，或者是AI服务提供商的客户。
-[查看并获取更多的详细信息](https://github.com/ATNIO/dbot-server)
+DBot服务者提供了DBot服务和执行，以及参与链下AI服务。[查看并获取更多的详细信息](https://github.com/ATNIO/dbot-server)
 
 
+- AI和API服务开放市场
+AI和API服务开放市场是一个为广大消费者提供各种AI服务和其他API服务的用户接口。
+![](img/aimarket.png)
 
-- AI计算和服务开放平台
-用于对接各大AI服务供应商的AI服务市场，提供AI服务的注册、报价及检索功能，最终形成一个AI服务开放市场，提供给DBot开发者用于集成和开发。
+其主要的特点包括：
+* 完全开源
+* 可以定制为完全公开或者私有的市场
+* 自动化生成多语言支持的API文档（取决于开放的API标准）
+* 支持管理统计和分析
+当前已经有测试版本推出 [这里](https://market-test.atnio.net/)，或者可以观看 [演示视频](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
-- AT用户开放平台
-提供各种主要的面向AI消费者的API服务，包括支付，交易，合约，开放数据等API。
+- ATN浏览器
+下图是一个当前测试版本中的ATN浏览器的样式。完全开源的ATN浏览器可以展现区块生产者以及他们的投票情况，以及提供如传统的区块链浏览器一样的基本功能。
 
-- AI 解决方案供应商
-利用自有技术和ATN提供的各种AI服务搭建面向C端用户的整套解决方案的供应商。更广泛一点说，面向各个行业的AI开放平台将由这个行业的各种解决方案构成。
+![](img/explorer.png)
+当前测试版本的ATN浏览器可以在[这里]查看(https://explorer-test.atnio.net/)，或者可以观看 [演示视频](https://www.youtube.com/watch?v=l052DZcWkzk)
+
+##### ATN钱包
+
+当前测试版本的ATN钱包可以在 [这里]下载使用(https://github.com/ATNIO/atn-wallet) ，或者可以观看 [演示视频](https://www.youtube.com/watch?v=he7evu28Djw)
+
+##### ATN客户端库
+
+ATN客户端库可以使开发者快捷地访问和使用ATN生态里的各类API。
+In order to interact with our ecosystem and access all kind of API in a convenient way, we provide a library.当前的测试版本的库可以在 [这里]获得(https://github.com/ATNIO/pyatn-client) ，也可以选择观看 [演示视频](https://www.youtube.com/watch?v=--iwBbZUEmA)。
 
 ## 总结
 传统的信息中介平台是互联网信息交换的重要应用，他提供了经济领域基于信息聚集和信任中介的合作基础。但是，在AI领域，因为数据在AI服务中的重要价值，使得利用信息中介平台很难达成价值交换和协作机制，共有链和基于共有链的DApp为各自分裂的AI服务参与者提供了这样一个价值交换和通信协作的网络。我们已经展示了如何通过ATN来实现区块链世界和AI世界的桥梁，让智能合约和AI服务间都可以互相操作。我们也列举了该系统如何为未来的AI应用提供支撑。特别的，它具有传统信息中介平台所不具备的与生俱来的优越性。
+
+## References
+1. XiaoI：http://www.xiaoi.com 
+2. Ethereum. Why should we use hybrid POW+POS mechanism？ http://www.8btc.com/powpos-vitalik-burterin
+3. Oraclize: http://oraclize.it/
+4. Neo whitepaper：http://docs.neo.org/en-us/
+5. EOS Technical White Paper：https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
+6. Aragon White Paper: https://raw.githubusercontent.com/aragon/whitepaper/master/Aragon%20Whitepaper.pdf
+7. Artificial intelligence algorithm platform https://algorithmia.com/
+8. Ethereum Sharding： https://github.com/ethereum/wiki/wiki/Sharding-FAQ
+9. Comit Network： http://www.comit.network/doc/COMIT%20white%20paper%20v1.0.2.pdf
+10. Raiden Network：http://raiden.network/
+11. Raiden Network POC：https://github.com/raiden-network/raiden/wiki/Raiden-PoC%E2%80%900
+12. Understanding Oracle：https://blog.oraclize.it/understanding-oracles-99055c9c9f7b
+13. Schelling Coin : https://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/
