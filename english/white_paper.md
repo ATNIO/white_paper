@@ -131,6 +131,7 @@ To summarize quickly its key properties:
 * detailled economic report to the provider
 * Infrastructure metrics visualisation
 * Infrastructure management tool (deployment, load balancing)
+* Permission control
 
 ![](img/user-service-interaction.png)
 
