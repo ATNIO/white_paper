@@ -89,6 +89,8 @@ The AI marketplace is an user interface where consumers can see a vast range of 
 The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
 Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
 
+![](img/ai-market-flow.png)
+
 #### Control level
 
 We can define **public versus private services** as following:
