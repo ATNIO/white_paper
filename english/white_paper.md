@@ -10,6 +10,7 @@ ATN.IO
 
 One of the key attributes of blockchain is the decentralized nature of the technology. This characteristic provides the ability to set up decentralized networks to overcome the challenges of highly centralized (i.e. monopolized) industries such as the nascent Artificial Intelligence (A.I.) industry where major players tend to isolate themselves from the competition in an attempt to secure their competitive advantage through technology development and access to big data. Success breeds success and each large A.I. player is increasingly capturing significant amounts of big data to further cement their competitive advantage. 
 
+
 In light of this, data has become the Internet’s most valuable resource.
 
 However, because each company has different types of businesses and data, they can only improve their AI according to the data they own. As a result, every company faces an internal conflict, as they need additional data to grow, but are not willing to share their own resources (data) in exchange, resulting in a slowed and fragmented industry.
@@ -90,6 +91,14 @@ The API market is an opensource project. It will automatically generate the API 
 Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
 
 ![](img/ai-market-flow.png)
+
+#### Service registry
+
+**Service registry** are smart contracts which aim to make a service knowable to users. Anybody can deplou a service registry smart contract that will be use to list services.
+The ATN Market will provide native support to fetch all the data and import it to the market.
+It makes things smoother and easier both for providers and consumers.
+
+When a provider register his service, his can decide if he wants to put his service in an **service registry** smart contract and specify it.
 
 #### Control level
 
@@ -318,6 +327,10 @@ Oblivious Transfer Protocol is the basis of secure multi-party computation. Duri
 
 In cryptography, a homomorphic encryption is an encryption that has certain algebraic characteristics such as the decryption of a result of a mathematical operation on encrypted data gives the same result as it would on unencrypted data; this property makes it possible to entrust an external agent to perform calculations, without the data or the results being accessible to this agent.
 
+##### Related work:  The zero-knowledge proof
+
+The “zero-knowledge proof, from S.Goldwasser, S.Micali and C.Rackoff is a document written in 1980. It means that the prover can convince the verifier that a certain assertion is correct without providing the verifier any useful information. Zero-knowledge proof is essentially an agreement involving two or more parties, and a series of steps that are required to be done by the parties. The prover will convince the verifier without leaking any information. The zero-knowledge proof is a very useful cryptographic tools and is the perfect tool to protect data sovereignty and privacy.
+
 #### AI computing power sharing
 
 ##### Centralized power sharing
@@ -359,9 +372,6 @@ ATN will provide an SDK for creators to publish and protect the pre-trained mode
 
 In order to use parameterized model services, users first need to upload a set of data. For example, for face recognition, users should upload the targeted face image to initialize it and then call the face recognition services.
 
-##### Related work:  The zero-knowledge proof
-
-The “zero-knowledge proof, from S.Goldwasser, S.Micali and C.Rackoff is a document written in 1980. It means that the prover can convince the verifier that a certain assertion is correct without providing the verifier any useful information. Zero-knowledge proof is essentially an agreement involving two or more parties, and a series of steps that are required to be done by the parties. The prover will convince the verifier without leaking any information. The zero-knowledge proof is a very useful cryptographic tools and is the perfect tool to protect data sovereignty and privacy.
 
 
 ## Actors
