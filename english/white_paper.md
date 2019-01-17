@@ -32,6 +32,24 @@ ATN manages, promotes and fosters technology co-creation and collaboration to he
 
 ### Connecting Blockchain and A.I. 
 
+
+#### A secure, simple and ready to use platform which benefits providers and consumers
+
+As we all know, the part of digital economy is growing really quickly and AI is a huge subpart of that economy. ATN aims to provide a secure, fast, easy ecosystem for developers.
+The digital economy is organized around providers with data and API to serve consumers.
+ATN purpose is to simplify the connection between providers and consumers while providing these key properties:
+* Easy to monetized for providers
+* super fast marketplace access
+* Easy rights management
+* Blockchain Security
+* Elegant pay-per-use design and parallel payment channels.
+* Very small fees
+* No need for trusted third parties
+
+
+![](img/provider-to-user.png)
+
+
 #### Open platform
 
 ATN is an open and open-source platform that allows third-party developers to build applications that can connect and exchange with the services of the network.
@@ -57,6 +75,7 @@ ATN ecosystem has been designed to be very simple to use and to give provider as
 
 
 ## ATN Ecosystem Architecture
+
 
 ### Ecosystem overview
 
@@ -87,8 +106,10 @@ More details can be found in the economic part of this paper.
 
 The AI marketplace is an user interface where consumers can see a vast range of services. You can test our current alpha demo [here](https://market-test.atnio.net/) and watch a demo video [here](https://www.youtube.com/watch?v=gsxSz9jfMd8)
 
-The API market is an opensource project. It will automatically generate the API description page for all the registered API Dbot in the market.
+The API market is an opensource project. It will **automatically generate the API description** page for all the registered API Dbot in the market.
 Since it's an open source project, anybody can decide to deploy a market, it will be possible to deploy an open market (anybody can access it) or a close market (you will need to be whitelisted in order to use services)
+
+Currently the market support swagger 2.0 specification. ![You can find a more detailed documentation here.][https://swagger.io/docs/specification/2-0/basic-structure/]
 
 ![](img/ai-market-flow.png)
 
@@ -103,7 +124,7 @@ When a provider register his service, his can decide if he wants to put his serv
 #### Control level
 
 We can define **public versus private services** as following:
-**A public service** is a service registered in a public registry thus knowable by anybody.
+**A public service** is a service registered in a service registry thus knowable to anybody.
 **A private service** is a service which is not a public service.
 
 We can define **open service** and **permissioned service** as following:
