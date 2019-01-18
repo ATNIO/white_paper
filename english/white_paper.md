@@ -45,9 +45,9 @@ ATN purpose is to simplify the connection between providers and consumers while 
 * Elegant pay-per-use design and parallel payment channels.
 * Very small fees
 * No need for trusted third parties
+* Scalable backend by design
 
-
-![](img/provider-to-user.png)
+![](img/provider-dev-user.png)
 
 
 #### Open platform
