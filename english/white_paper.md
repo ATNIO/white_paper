@@ -167,6 +167,19 @@ To summarize quickly its key properties:
 
 ![](img/user-service-interaction.png)
 
+#### Data computing DBot technology.
+
+The Data computing DBot technology is one of the key part of ATN ecosystem. It leverages the decentralized infrastructure of ATN to offer great security and full control. This unique design allow the monetization of sensitive DATA without taking any risk because the data is used to train locally.
+
+If you also want to provide AI training data to the network and you don't have any private data, you can preload some public dataset locally and offer training AI services with this data.
+An ATN web portal will help you to chose which dataset to preload by checking the demand of dataset from it.
+
+The Data computing DBot provider will then init his computing resources (GPU and any other AI training computing unit) and then he will be available to receive customers.
+
+The customer will send his AI model to the provider and the provider will train the model locally and send some training proofs on chain the the provider will be able to check.
+
+![](img/data-dbot.png)
+
 
 ### Economy and incentive of ATN chain
 
@@ -174,7 +187,7 @@ The economy of a blockchain is a key aspect because it has to be economically pr
 The safety of a decentralized ledger is also a crucial property because it brings the value of the network. That's why people will trust it and use it. 
 
 Its with all these considerations that we introduce this economic plan in order to protect and develop ATN ecosystem. ATN public chain has a DPOS consensus with dynamic number of block producers. 
-At the beginning there will be few block producers and it will slowly increase over time **until we reach 101 nodes.** 
+At the beginning there will be few block producers and it will slowly increase over time **until we reach 23 nodes.** 
 That way we can guarantee the liveliness and the security of ATN chain whilst ensuring a good incentive for block producers.
 
 As all other public chain, ATN will use inflation in order to maintain the network. The inflation during the first five years will be **5% and will slowly decrease to 3%.** 
